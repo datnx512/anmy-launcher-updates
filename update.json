@@ -1,7 +1,7 @@
 {
-  "versionCode": 6,
-  "versionName": "0.3.0",
+  "versionCode": 7,
+  "versionName": "0.3.1",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "33b14d547163de4f7e21e892d15ad075e5b96fd580ebb2ad68798033c85bbb9c",
-  "changelog": "Thêm 3 model Live2D mới: Mao, Natori, Wanko."
+  "sha256": "b9c2b7f669f11f607eadb970b2865f37b383ddbb4f45227bfd995715bfc56f98",
+  "changelog": "Hoạt cảnh nền động có chiều sâu (parallax 3 lớp) cho Bầu trời/Hoàng hôn/Rừng cây/Ban đêm."
 }
