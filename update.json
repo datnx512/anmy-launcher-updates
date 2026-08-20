@@ -1,7 +1,7 @@
 {
-  "versionCode": 8,
-  "versionName": "0.3.2",
+  "versionCode": 9,
+  "versionName": "0.3.3",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "14e7bac57e0ab7d2850df36432019ff87dd836571ac8d9ee8b511e0bfe54ce7e",
-  "changelog": "Hoạt cảnh nền dạng không gian thực: bầu trời, mặt đất, mây trôi, cây thông, cỏ lay gió, hạt gió."
+  "sha256": "b29771eff6463c8e5f10b5e279f39444afa597f64a3268fa8da42dc5743433cd",
+  "changelog": "Nhân vật đứng trong cảnh quan (GL trong suốt): bầu trời, đất, cây, mây, cỏ hiển thị phía sau nhân vật."
 }
