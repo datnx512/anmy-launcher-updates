@@ -1,7 +1,7 @@
 {
-  "versionCode": 7,
-  "versionName": "0.3.1",
+  "versionCode": 8,
+  "versionName": "0.3.2",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "b9c2b7f669f11f607eadb970b2865f37b383ddbb4f45227bfd995715bfc56f98",
-  "changelog": "Hoạt cảnh nền động có chiều sâu (parallax 3 lớp) cho Bầu trời/Hoàng hôn/Rừng cây/Ban đêm."
+  "sha256": "14e7bac57e0ab7d2850df36432019ff87dd836571ac8d9ee8b511e0bfe54ce7e",
+  "changelog": "Hoạt cảnh nền dạng không gian thực: bầu trời, mặt đất, mây trôi, cây thông, cỏ lay gió, hạt gió."
 }
