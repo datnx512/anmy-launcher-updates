@@ -1,7 +1,7 @@
 {
-  "versionCode": 4,
-  "versionName": "0.2.2",
+  "versionCode": 5,
+  "versionName": "0.2.3",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "e87c2414f295035b0fc6db6d385f744e29eaf07bd06e9578f11ed809b016f962",
-  "changelog": "Sửa lỗi đơ/lag: không giải mã lại texture Live2D mỗi lần resume/đóng modal."
+  "sha256": "ac3519932bf76cf8a6a33170ec3dc42cee47d0aeab01e4062cbacf1162d4a9ba",
+  "changelog": "Đồng bộ nền nhân vật theo theme Hoạt cảnh (Bầu trời/Hoàng hôn/Rừng cây/Ban đêm)."
 }
