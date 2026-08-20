@@ -1,7 +1,7 @@
 {
-  "versionCode": 9,
-  "versionName": "0.3.3",
+  "versionCode": 10,
+  "versionName": "0.3.4",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "b29771eff6463c8e5f10b5e279f39444afa597f64a3268fa8da42dc5743433cd",
-  "changelog": "Nhân vật đứng trong cảnh quan (GL trong suốt): bầu trời, đất, cây, mây, cỏ hiển thị phía sau nhân vật."
+  "sha256": "2e7cfa8730d786a5e7f20a8e0fd063249d70726ff6655422379653da7a6a2e42",
+  "changelog": "Mỗi theme là một cảnh khác nhau: Bầu trời (mây+đồi), Hoàng hôn (mặt trời+chim), Rừng cây (rừng dày+tia nắng), Ban đêm (trăng+sao+đom đóm)."
 }
