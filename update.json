@@ -1,7 +1,7 @@
 {
-  "versionCode": 2,
-  "versionName": "0.2.0",
+  "versionCode": 3,
+  "versionName": "0.2.1",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "183a2e45c780b5e128b4fa6434a33f7100603723525ebfb5f3ad8e0f6cce0d5c",
-  "changelog": "Live2D: sửa lỗi mất model từ lần mở thứ 2 + hết lag modal cài đặt phụ huynh."
+  "sha256": "16ef5018ef41e589679075d1019ca8dc5476e1b5b1d4cfd68b6502aa99b524bf",
+  "changelog": "Giảm render Live2D xuống 30fps khi nghỉ — hết đơ khi vuốt/cuộn và mở lại từ đa nhiệm."
 }
