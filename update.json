@@ -1,7 +1,7 @@
 {
-  "versionCode": 3,
-  "versionName": "0.2.1",
+  "versionCode": 4,
+  "versionName": "0.2.2",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "16ef5018ef41e589679075d1019ca8dc5476e1b5b1d4cfd68b6502aa99b524bf",
-  "changelog": "Giảm render Live2D xuống 30fps khi nghỉ — hết đơ khi vuốt/cuộn và mở lại từ đa nhiệm."
+  "sha256": "e87c2414f295035b0fc6db6d385f744e29eaf07bd06e9578f11ed809b016f962",
+  "changelog": "Sửa lỗi đơ/lag: không giải mã lại texture Live2D mỗi lần resume/đóng modal."
 }
