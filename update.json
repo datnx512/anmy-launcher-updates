@@ -2,6 +2,6 @@
   "versionCode": 1,
   "versionName": "0.1.0",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "b55bd7ea0b321de43292b515f936136bfb7414182a23e6cbf2a2fdb8b929a23a",
+  "sha256": "43d5ab6be423c39b7f8d450d7f0a12902d69b415bfd002d02cd85e7321a8086b",
   "changelog": "Live update: tự phát hiện bản mới + host qua repo GitHub private."
 }
