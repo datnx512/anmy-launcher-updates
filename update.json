@@ -1,7 +1,25 @@
 {
-  "versionCode": 16,
-  "versionName": "0.3.10",
-  "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "4b5b10c554c5a72b18a7e4bddf560073e5a3ea5905a3725a0de7d3424e0d834c",
-  "changelog": "Sửa lỗi bong bóng trò chuyện bị nhân vật che + nút mic/gõ/gửi; hiển thị icon app theo hệ thống; đưa ứng dụng về App Draw."
+  "versionCode": 17,
+  "versionName": "0.4.0",
+  "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
+  "sha256": "a65eb1da229e907439d707ba2f7acf3fb92134641ead1f20cd412fd8c41ce839",
+  "changelog": "Thiết kế lại cài đặt phụ huynh (4 tab) · giọng nói Edge (neural) + nhận diện giọng nói offline (Vosk) · lip-sync đồng bộ thật · tối ưu hiệu năng Live2D.",
+  "abiApks": {
+    "arm64-v8a": {
+      "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
+      "sha256": "d8ab8b2891621ed1fba38388a8a8e8a1e1ce7ed944c3c6337ac1ff66245ff69a"
+    },
+    "armeabi-v7a": {
+      "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-armeabi-v7a-release.apk",
+      "sha256": "829526fd03ef544bd2eee6b69f184d96fa7f03493c5de09c503938658cbc093c"
+    },
+    "x86": {
+      "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86-release.apk",
+      "sha256": "915c81e89252887d72645742c212c9084313de422e802c3084a41b15aedc598b"
+    },
+    "x86_64": {
+      "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
+      "sha256": "74be7fa2d9cf8afeb2db1390602694e8c7b176cfc641f3879c93ce177b2dc128"
+    }
+  }
 }
