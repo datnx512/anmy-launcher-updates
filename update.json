@@ -1,7 +1,7 @@
 {
-  "versionCode": 10,
-  "versionName": "0.3.4",
+  "versionCode": 11,
+  "versionName": "0.3.5",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "2e7cfa8730d786a5e7f20a8e0fd063249d70726ff6655422379653da7a6a2e42",
-  "changelog": "Mỗi theme là một cảnh khác nhau: Bầu trời (mây+đồi), Hoàng hôn (mặt trời+chim), Rừng cây (rừng dày+tia nắng), Ban đêm (trăng+sao+đom đóm)."
+  "sha256": "b5dd4a282094c9f85b21f0c64394347b623bd7fdbec74b35771c78abee7bafbf",
+  "changelog": "Bản 0.3.5: thêm 5 model Live2D (Hiyori, Miku, Miara, Tororo, Hijiki)"
 }
