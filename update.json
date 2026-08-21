@@ -1,25 +1,25 @@
 {
-  "versionCode": 18,
-  "versionName": "0.4.1",
+  "versionCode": 19,
+  "versionName": "0.5.0",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "5b7d13adfe90009a9f23093bb06bdc833d8580a3f08e2d83bcba9dda8cc64d9c",
-  "changelog": "Sửa lỗi không resolve được raw.githubusercontent.com (thêm DNS fallback khi mạng chặn DNS hệ thống).",
+  "sha256": "3eb5f4ff41bbfac60506c9a3a8664eadd9ec0b395a4cb8494a908db17f98e6d5",
+  "changelog": "Phụ huynh tự upload model Live2D + hoạt cảnh nền (ảnh/GIF/video/Live2D) và đổi ngay không cần khởi động lại; chế độ lái xe; cải thiện giọng nói.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "5277afdac50389fa8c9780095d3fff36aa857593fa8ced05ec2a0aba0899ce0e"
+      "sha256": "afcac1958cd1b924d97b823099c26c52d1518015fcd7ff063758ddada435991d"
     },
     "armeabi-v7a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-armeabi-v7a-release.apk",
-      "sha256": "b003060552d344c94a94944d6f0000719cdd20bba30fc9130135fd9cc841c022"
+      "sha256": "aea426fa8094e5fbd2df76b83d1eeec6cf3a1739cad96132b13bae4f39cfd42d"
     },
     "x86": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86-release.apk",
-      "sha256": "36f26a61b1cf01f9e8d10ac664041d1c16f6d7d7dedfeb783d8164957f1a4587"
+      "sha256": "67abdfe45caf4428b4b694425779d65964813f66573c86180639b966d3660c87"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "72b45d80ad17fdcf292485571e7ab7290d0e80a3f0614b15fdea8b05ce8cfaa8"
+      "sha256": "02cc685faf22b84552ecde574b8ebf7fed37b09aed2ac0ecf9442f3f880574a8"
     }
   }
 }
