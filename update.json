@@ -1,7 +1,7 @@
 {
-  "versionCode": 12,
-  "versionName": "0.3.6",
+  "versionCode": 13,
+  "versionName": "0.3.7",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "8abcbe8fcb273b9e8cb142a52f3c3a847be4312e1e0379db39cb3f8cdc9930ab",
-  "changelog": "Thêm cấu hình hồ sơ trẻ (tên/tuổi/sở thích); nâng cấp hội thoại: bong bóng xếp từ dưới lên, tin cũ mờ dần."
+  "sha256": "c4deac51530b4892bdcdf94a15492277b26712c5ef5b94b8654454251b48845d",
+  "changelog": "Kích hoạt trò chuyện AI thật (DeepSeek); sửa lỗi treo giọng nói khi bấm Trò chuyện."
 }
