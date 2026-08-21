@@ -1,25 +1,25 @@
 {
-  "versionCode": 17,
-  "versionName": "0.4.0",
+  "versionCode": 18,
+  "versionName": "0.4.1",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "a65eb1da229e907439d707ba2f7acf3fb92134641ead1f20cd412fd8c41ce839",
-  "changelog": "Thiết kế lại cài đặt phụ huynh (4 tab) · giọng nói Edge (neural) + nhận diện giọng nói offline (Vosk) · lip-sync đồng bộ thật · tối ưu hiệu năng Live2D.",
+  "sha256": "5b7d13adfe90009a9f23093bb06bdc833d8580a3f08e2d83bcba9dda8cc64d9c",
+  "changelog": "Sửa lỗi không resolve được raw.githubusercontent.com (thêm DNS fallback khi mạng chặn DNS hệ thống).",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "d8ab8b2891621ed1fba38388a8a8e8a1e1ce7ed944c3c6337ac1ff66245ff69a"
+      "sha256": "5277afdac50389fa8c9780095d3fff36aa857593fa8ced05ec2a0aba0899ce0e"
     },
     "armeabi-v7a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-armeabi-v7a-release.apk",
-      "sha256": "829526fd03ef544bd2eee6b69f184d96fa7f03493c5de09c503938658cbc093c"
+      "sha256": "b003060552d344c94a94944d6f0000719cdd20bba30fc9130135fd9cc841c022"
     },
     "x86": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86-release.apk",
-      "sha256": "915c81e89252887d72645742c212c9084313de422e802c3084a41b15aedc598b"
+      "sha256": "36f26a61b1cf01f9e8d10ac664041d1c16f6d7d7dedfeb783d8164957f1a4587"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "74be7fa2d9cf8afeb2db1390602694e8c7b176cfc641f3879c93ce177b2dc128"
+      "sha256": "72b45d80ad17fdcf292485571e7ab7290d0e80a3f0614b15fdea8b05ce8cfaa8"
     }
   }
 }
