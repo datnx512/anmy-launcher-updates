@@ -1,7 +1,7 @@
 {
-  "versionCode": 14,
-  "versionName": "0.3.8",
+  "versionCode": 15,
+  "versionName": "0.3.9",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "82adfe79bb3081d444b8179d985a83019cebf11922c8b2f0762ef488db6e08f6",
-  "changelog": "Thêm ô nhập chữ khi không nghe được giọng nói; ghi log chẩn đoán nhận giọng nói."
+  "sha256": "fb37064b27c21053a0524ba25dd65bdca1b75f6f1282d136770337eaa2b4a6f7",
+  "changelog": "Thiết kế lại layout (ô gõ chữ + mic ở đáy, ứng dụng phía trên); sửa lỗi Live2D khi xoay màn hình; tối ưu cache texture."
 }
