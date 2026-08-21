@@ -1,7 +1,7 @@
 {
-  "versionCode": 13,
-  "versionName": "0.3.7",
+  "versionCode": 14,
+  "versionName": "0.3.8",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/anmy-launcher.apk",
-  "sha256": "c4deac51530b4892bdcdf94a15492277b26712c5ef5b94b8654454251b48845d",
-  "changelog": "Kích hoạt trò chuyện AI thật (DeepSeek); sửa lỗi treo giọng nói khi bấm Trò chuyện."
+  "sha256": "82adfe79bb3081d444b8179d985a83019cebf11922c8b2f0762ef488db6e08f6",
+  "changelog": "Thêm ô nhập chữ khi không nghe được giọng nói; ghi log chẩn đoán nhận giọng nói."
 }
