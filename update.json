@@ -1,17 +1,17 @@
 {
-  "versionCode": 23,
-  "versionName": "0.6.3",
+  "versionCode": 24,
+  "versionName": "0.6.4",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "678cc17bb36266a8072f61dd1c7cf6645b1fb7857044cd68191784f230432cf6",
-  "changelog": "Live2D: sửa lệch ABI (chỉ build arm64-v8a/x86_64, bỏ APK 32-bit thiếu native lib) + log chẩn đoán render",
+  "sha256": "436e8eaf3e7e8106a80bead7a8c75fcaf5deb8702617c2d7d5db7f42200491fa",
+  "changelog": "Chuyển repo OTA sang public (hết 404 kiểm tra cập nhật) + gỡ token nhúng khỏi APK",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "6c12a6878b1363665815ed28896c6a4f487a254688db6626ff72a1a4bf1702f9"
+      "sha256": "2f083c8e24e0199303da44513948265376a157273e7d764512905b2bf64c81fd"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "6e3febb09ec8dda20f3e0d4aadf5b921215b6671a07031bd3745a8d345d78b16"
+      "sha256": "a089711124839a9b859314b3b5f4c34ee8a62c2161305b69c4ade3a9ce8157b7"
     }
   }
 }
