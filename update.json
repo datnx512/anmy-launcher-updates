@@ -2,24 +2,24 @@
   "versionCode": 22,
   "versionName": "0.6.2",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "a274bbe5b632197262b9e2500d0fb275d445eb7dd43d96bf0b065fd350ac5c8b",
-  "changelog": "🚗 Activity Embedding cho chế độ lái xe:\n- Nhúng app native vào pane phải qua FLAG_ACTIVITY_LAUNCH_ADJACENT\n- Live2D Anmy fullscreen bên trái, không bị đẩy UI\n- Chuỗi fallback: Embedding → split-screen → toàn màn hình\n- Media keys (⏯ ⏮ ⏭) hoạt động với app nhạc\n\n🔧 Sửa lỗi module rewards (TypeToken, scope.cancel)",
+  "sha256": "8bd5d48a39b679fb4ea56c2be26b389425685ae51a9823575c7ad674bdd79a2a",
+  "changelog": "🚗 Activity Embedding cho chế độ lái xe:\n- Nhúng app native vào pane phải qua FLAG_ACTIVITY_LAUNCH_ADJACENT\n- Live2D Anmy fullscreen bên trái, không bị đẩy UI\n- Chuỗi fallback: Embedding → split-screen → toàn màn hình\n- Media keys (⏯ ⏮ ⏭) hoạt động với app nhạc\n\n🔧 Sửa lỗi:\n- Room database fallbackToDestructiveMigration (hết crash sau update)\n- Sửa lỗi biên dịch module rewards",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "55266c8b3d2a4712ce8ca290ef35dd023f14bb4845759c76e6e249913cf2c5fa"
+      "sha256": "2ff84231f2e96b61190e0efd0add26fa63b7be04bb6c7764284325ea5f853285"
     },
     "armeabi-v7a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-armeabi-v7a-release.apk",
-      "sha256": "f21d63281c8175f2272a0aed2582f6fbdcde5f6b0db983814659d7852861a9d9"
+      "sha256": "7913cd36bbaf1fc50f8f58a6c9439867c5b8e0bae33bf68b6c6d2e1f0c31bf0e"
     },
     "x86": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86-release.apk",
-      "sha256": "333db401c4e5b9081a2fe98cfdad85cbdb1e593673770970e4989418b35b4b11"
+      "sha256": "cd529a9dfa794af572fb7123e235ef6bc3b94a9b40b1c25645cd94bb9624b32e"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "36f271ac1c3411a4890d2d0392194ddbcdf96596792718fc2e7156a7b91d8f3d"
+      "sha256": "4e5081adf50093ceff5be61a84ea27e265def2398fe23826db3b587f55420e15"
     }
   }
 }
