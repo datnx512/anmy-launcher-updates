@@ -1,25 +1,25 @@
 {
-  "versionCode": 19,
-  "versionName": "0.5.0",
+  "versionCode": 20,
+  "versionName": "0.6.0",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "3eb5f4ff41bbfac60506c9a3a8664eadd9ec0b395a4cb8494a908db17f98e6d5",
-  "changelog": "Phụ huynh tự upload model Live2D + hoạt cảnh nền (ảnh/GIF/video/Live2D) và đổi ngay không cần khởi động lại; chế độ lái xe; cải thiện giọng nói.",
+  "sha256": "beff507601c5c57c74807aa373114821c2e328df010c0f008be877ba470580c5",
+  "changelog": "Module Kể chuyện mới: thư viện truyện + trình phát theo trang (nhân vật Live2D, giọng đọc, câu hỏi tương tác) + gợi ý theo độ tuổi + tiến độ đọc + content pack CDN. Nâng cấp UX màn hình chính.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "afcac1958cd1b924d97b823099c26c52d1518015fcd7ff063758ddada435991d"
+      "sha256": "de0f9c193885b7e32ac91af363cab4d5b52aaf88c7a3a24e783d4ebff43baee6"
     },
     "armeabi-v7a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-armeabi-v7a-release.apk",
-      "sha256": "aea426fa8094e5fbd2df76b83d1eeec6cf3a1739cad96132b13bae4f39cfd42d"
+      "sha256": "b54770bccaaf589b9f2a16aad961265324b5ff7cff9f0a72e3ded39b9812594b"
     },
     "x86": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86-release.apk",
-      "sha256": "67abdfe45caf4428b4b694425779d65964813f66573c86180639b966d3660c87"
+      "sha256": "e1e2a5b2b9750294659c71f523944b86fdcf77e9dc213363e0a513d4e4bb0581"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "02cc685faf22b84552ecde574b8ebf7fed37b09aed2ac0ecf9442f3f880574a8"
+      "sha256": "1c166fb3ac13e0dabd57ae8fe4039f2c5d7534a7ae1170da356e704d324127f0"
     }
   }
 }
