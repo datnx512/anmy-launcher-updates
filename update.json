@@ -1,25 +1,17 @@
 {
-  "versionCode": 22,
-  "versionName": "0.6.2",
+  "versionCode": 23,
+  "versionName": "0.6.3",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "8bd5d48a39b679fb4ea56c2be26b389425685ae51a9823575c7ad674bdd79a2a",
-  "changelog": "🚗 Activity Embedding cho chế độ lái xe:\n- Nhúng app native vào pane phải qua FLAG_ACTIVITY_LAUNCH_ADJACENT\n- Live2D Anmy fullscreen bên trái, không bị đẩy UI\n- Chuỗi fallback: Embedding → split-screen → toàn màn hình\n- Media keys (⏯ ⏮ ⏭) hoạt động với app nhạc\n\n🔧 Sửa lỗi:\n- Room database fallbackToDestructiveMigration (hết crash sau update)\n- Sửa lỗi biên dịch module rewards",
+  "sha256": "678cc17bb36266a8072f61dd1c7cf6645b1fb7857044cd68191784f230432cf6",
+  "changelog": "Live2D: sửa lệch ABI (chỉ build arm64-v8a/x86_64, bỏ APK 32-bit thiếu native lib) + log chẩn đoán render",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "2ff84231f2e96b61190e0efd0add26fa63b7be04bb6c7764284325ea5f853285"
-    },
-    "armeabi-v7a": {
-      "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-armeabi-v7a-release.apk",
-      "sha256": "7913cd36bbaf1fc50f8f58a6c9439867c5b8e0bae33bf68b6c6d2e1f0c31bf0e"
-    },
-    "x86": {
-      "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86-release.apk",
-      "sha256": "cd529a9dfa794af572fb7123e235ef6bc3b94a9b40b1c25645cd94bb9624b32e"
+      "sha256": "6c12a6878b1363665815ed28896c6a4f487a254688db6626ff72a1a4bf1702f9"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "4e5081adf50093ceff5be61a84ea27e265def2398fe23826db3b587f55420e15"
+      "sha256": "6e3febb09ec8dda20f3e0d4aadf5b921215b6671a07031bd3745a8d345d78b16"
     }
   }
 }
