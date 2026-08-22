@@ -1,25 +1,25 @@
 {
-  "versionCode": 21,
-  "versionName": "0.6.1",
+  "versionCode": 22,
+  "versionName": "0.6.2",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "6456b967af573640ea0b65fef12b56941f6174e94119c49bf36363b5c4450124",
-  "changelog": "Hiển thị tính năng upload model Live2D + hoạt cảnh nền (ảnh/GIF/video/Live2D) — sửa lỗi không hiện UI trong bản 0.6.0.",
+  "sha256": "a274bbe5b632197262b9e2500d0fb275d445eb7dd43d96bf0b065fd350ac5c8b",
+  "changelog": "🚗 Activity Embedding cho chế độ lái xe:\n- Nhúng app native vào pane phải qua FLAG_ACTIVITY_LAUNCH_ADJACENT\n- Live2D Anmy fullscreen bên trái, không bị đẩy UI\n- Chuỗi fallback: Embedding → split-screen → toàn màn hình\n- Media keys (⏯ ⏮ ⏭) hoạt động với app nhạc\n\n🔧 Sửa lỗi module rewards (TypeToken, scope.cancel)",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "cd7e8668b1ba079d932a73f6f0b300b3e5a22bc9d670ba821de4bb58312a68ee"
+      "sha256": "55266c8b3d2a4712ce8ca290ef35dd023f14bb4845759c76e6e249913cf2c5fa"
     },
     "armeabi-v7a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-armeabi-v7a-release.apk",
-      "sha256": "42adbfe4b3f51e22541a3a348c09851b419f746ea60f086ab0922adfc6d5f4c4"
+      "sha256": "f21d63281c8175f2272a0aed2582f6fbdcde5f6b0db983814659d7852861a9d9"
     },
     "x86": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86-release.apk",
-      "sha256": "0322bd4afa5cb40273072379d061c9a5cd6e15c9eeaa31c37eb876a80f9cca2c"
+      "sha256": "333db401c4e5b9081a2fe98cfdad85cbdb1e593673770970e4989418b35b4b11"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "479f27c258bd93b28936866912a839489296e9705a003542f2e01fe4210c10c8"
+      "sha256": "36f271ac1c3411a4890d2d0392194ddbcdf96596792718fc2e7156a7b91d8f3d"
     }
   }
 }
