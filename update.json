@@ -1,17 +1,17 @@
 {
-  "versionCode": 30,
-  "versionName": "0.7.4",
+  "versionCode": 31,
+  "versionName": "0.7.5",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "be7032e9dd91e5adb095ec28e55d4809dfa5da5fd5edbe9a48819b38542a2c64",
-  "changelog": "0.7.4: Sửa giọng nói — TTS tự chuyển về giọng hệ thống khi Edge lỗi; Test nhận diện đo mức mic và báo chẩn đoán chi tiết (mic OK / mic im lặng / nghe được gì).",
+  "sha256": "6bfeda6c5f0c403ef07aff7a0a644e2b854b18712af3abe29cf64fdb8097251f",
+  "changelog": "0.7.5: Thêm OpenRouter + chọn model LLM trong cài đặt phụ huynh (GPT-4o, Claude, Gemini, Llama, Qwen...); Sửa chia đôi màn hình chế độ lái xe trên Android 13.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "ac3aa5be1a2cc8d69af5cce33c946377798957a18fc3e936347365b8ebf75f83"
+      "sha256": "637598604f247f01c50e54e7fa53c16ffa9b1a55b6996f64a93924a388bbbc69"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "2f1be92443df57ed10afcc7ad241a8e0a4f17bef823a0bc2f0243d6b4fef014f"
+      "sha256": "a9ef58de7fb825e8cdd3399563b1ba613152c42b6892369e73b642db99603209"
     }
   }
 }
