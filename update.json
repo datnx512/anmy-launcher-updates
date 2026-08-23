@@ -2,16 +2,16 @@
   "versionCode": 36,
   "versionName": "0.8.4",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "f6ca11ba0d65ffc21dce9b7542cd2ffc3b2ee29fb39aaa2cf451485ede9eb083",
-  "changelog": "0.8.4: Nâng cấp module navi toàn diện — RouteTracker (tiến trình thật + ETA), SpeedLimitSource (maxspeed từ OSM way), MapillaryPoiSource (biển báo AI bổ sung), Overspeed detection + haptic, Custom POI markers (đỏ/vàng/xanh) + PoiDetailCard + nút Báo POI sai, HeadingArrow xoay theo hướng, Night mode CartoDB dark, DestinationSearchScreen Nominatim autocomplete, Re-route tự động. 28 unit tests 100% pass.",
+  "sha256": "50b8cf312c569bc02187e72d14a0ec3336f3e89a105753ce7e4d37b9b3ca2280",
+  "changelog": "0.8.4: NaviController thật (AndroidNaviController GPS+OSRM+Overpass), RouteTracker tiến trình+ETA thật, SpeedLimitSource maxspeed OSM way, MapillaryPoiSource biển báo AI, Overspeed+haptic, Custom POI marker đỏ/vàng/xanh+PoiDetailCard+Báo sai, HeadingArrow xoay hướng, Night mode, DestinationSearchScreen Nominatim autocomplete. Nút Tìm trong dock mở tìm kiếm điểm đến.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "72c18db06e42a9a7558590d21fb66e61b5388894c97b2429ebea7f00301e5b6b"
+      "sha256": "8de9613131ef569215322db610354e982441464c7095c05cd0ef508571534b12"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "7e61f602becbc52e76ba5b11d580778cb75dc62945edef367cfe31cc128dd08c"
+      "sha256": "6473935471b042e642e39f4019647d5d6b2d6b17c173f0c2ad74daba351a1298"
     }
   }
 }
