@@ -1,17 +1,17 @@
 {
-  "versionCode": 31,
-  "versionName": "0.7.5",
+  "versionCode": 32,
+  "versionName": "0.8.0",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "6bfeda6c5f0c403ef07aff7a0a644e2b854b18712af3abe29cf64fdb8097251f",
-  "changelog": "0.7.5: Thêm OpenRouter + chọn model LLM trong cài đặt phụ huynh (GPT-4o, Claude, Gemini, Llama, Qwen...); Sửa chia đôi màn hình chế độ lái xe trên Android 13.",
+  "sha256": "b82fa010a1b9ed63ded0067d7f1452119175ddca182331ce1717bd4dc8aa4107",
+  "changelog": "0.8.0: Dashboard native chế độ lái — bản đồ điều hướng osmdroid + OSRM turn-by-turn + POI giao thông VN (camera/đèn/biển) + MediaBar MediaSession + biểu đồ tri thức 3D (3d-force-graph) + Anmy đồng hành (biểu cảm + bộ nhớ drive) + agentic tools (17 tool).",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "637598604f247f01c50e54e7fa53c16ffa9b1a55b6996f64a93924a388bbbc69"
+      "sha256": "bb15085a3a34aba19655be8884303d40fa98e5ac84ea83363646181542a810f5"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "a9ef58de7fb825e8cdd3399563b1ba613152c42b6892369e73b642db99603209"
+      "sha256": "b2f598fcaaa80a5968105d8ac3ab149e71af09861a2f3f5fe2f7a88f4d75b4f9"
     }
   }
 }
