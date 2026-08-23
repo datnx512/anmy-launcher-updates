@@ -1,17 +1,17 @@
 {
-  "versionCode": 29,
-  "versionName": "0.7.3",
+  "versionCode": 30,
+  "versionName": "0.7.4",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "f3dd65d45e4764ad21d9bafec3b89522a7f3c94fa238aa93286b33115ad28149",
-  "changelog": "0.7.3: Cải thiện Test giọng nói — nút Thử giọng hiện trạng thái Đang nói, chẩn đoán nhận diện rõ hơn.",
+  "sha256": "be7032e9dd91e5adb095ec28e55d4809dfa5da5fd5edbe9a48819b38542a2c64",
+  "changelog": "0.7.4: Sửa giọng nói — TTS tự chuyển về giọng hệ thống khi Edge lỗi; Test nhận diện đo mức mic và báo chẩn đoán chi tiết (mic OK / mic im lặng / nghe được gì).",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "2f2a5ba7e31828eb3a940708b0840d2341dd33c7bf8da06fa764d32b8a136e75"
+      "sha256": "ac3aa5be1a2cc8d69af5cce33c946377798957a18fc3e936347365b8ebf75f83"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "4877f5814f2858d23a2d11242f399808feb8e68b6c58455b8fe777e840f5cd9f"
+      "sha256": "2f1be92443df57ed10afcc7ad241a8e0a4f17bef823a0bc2f0243d6b4fef014f"
     }
   }
 }
