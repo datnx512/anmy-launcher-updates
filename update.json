@@ -1,17 +1,17 @@
 {
-  "versionCode": 26,
-  "versionName": "0.7.0",
+  "versionCode": 27,
+  "versionName": "0.7.1",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "9f695252d4534c58784c6951cf8ba1c5f23b201b5f50dcfefc8cb5ff104be033",
-  "changelog": "Chế độ lái xe: Anmy thành bạn đồng hành — trò chuyện liên tục bằng giọng nói, tự thực thi tác vụ (chỉ đường, gọi, phát nhạc, đặt nhắc hẹn, ghi nhớ dài hạn), biểu đồ tri thức 3D riêng cho phụ huynh, chủ động nhắc nghỉ/pin và gợi ý điểm đến. Sửa split-screen pane phải. Bản này ký bằng keystore phát hành.",
+  "sha256": "9378f5cf40b290ce1b6f014aa1e26c2ef4254d90eefc9964214d3bc02933aed3",
+  "changelog": "0.7.1: Tối ưu nhận diện giọng nói (ASR fallback, wake word chính xác hơn) + thêm nút Test giọng nói trong Cài đặt. Màn hình lái: app hiển thị icon thật, gọn bớt nút trùng. Bỏ ghim không về màn hình khoá.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "86b4006bef54d1e63ddcb73dd7e743ca4f2eefc90012443c7ec940659964dc8a"
+      "sha256": "bd47c890296083a938862276d8f9a7dbe6237970a1907c863ef0c8b02640e5b6"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "2ea0642b80c2f4cd1e986373dfadb12013d578fcecbcb0f7d2228c2515cd97f9"
+      "sha256": "84d9dcf60919cba2cc483dcc8864f0effcb708cb27f2f4e19260e527d728c89c"
     }
   }
 }
