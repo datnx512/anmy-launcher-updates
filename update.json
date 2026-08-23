@@ -1,17 +1,17 @@
 {
-  "versionCode": 35,
-  "versionName": "0.8.3",
+  "versionCode": 36,
+  "versionName": "0.8.4",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "5648d8e04e120d466a1b0e6aae9d71295cd2276c2618c8a627af4a3a19b57f5f",
-  "changelog": "0.8.3: Dashboard Native toàn diện — bỏ split-screen hệ thống; tự vẽ 2-pane (Anmy + NaviScreen/KnowledgeGraph3D + MediaBar). Đồng hành toàn diện: reactive navi events, persona mode (chatty/concise/quiet), WorkingMemory+Planning, 27 tools (5 nhóm), drive memory + tự đúc kết. POI giao thông VN cache 5km². Dock mới (Định vị/Tri thức/Nhạc/Gọi/Tìm/Cài đặt/Thoát).",
+  "sha256": "1aca80cc4f58525de762fca5f8c148e9421937ae4d17e5b3b3a3fe42b2c6deba",
+  "changelog": "0.8.4: Nâng cấp module navi toàn diện — RouteTracker (tiến trình thật + ETA), SpeedLimitSource (maxspeed từ OSM way), MapillaryPoiSource (biển báo AI bổ sung), Overspeed detection + haptic, Custom POI markers (đỏ/vàng/xanh) + PoiDetailCard + nút Báo POI sai, HeadingArrow xoay theo hướng, Night mode CartoDB dark, DestinationSearchScreen Nominatim autocomplete, Re-route tự động. 28 unit tests 100% pass.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "95aac962f2f3a9cef67cd8920702d8473910ab9a0de763f673de03cc579ebec8"
+      "sha256": "a51caa9b9a72040f6c2763f204078478328c1c72e896bb5e859ebb30823ca1d6"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "ea1a729c77293c56d2af87c0696869392836b6d0c6993fda4d0c6f3575513c8e"
+      "sha256": "3d8b88827c7dfa0025f6205809cfc734c3bcace3679ebc10bf613e0701af1b46"
     }
   }
 }
