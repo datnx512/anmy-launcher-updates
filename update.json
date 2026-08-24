@@ -1,17 +1,17 @@
 {
-  "versionCode": 41,
-  "versionName": "1.5.1",
+  "versionCode": 42,
+  "versionName": "1.5.2",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "94ffd8d293c19840238a63b7553a967d6cfd2d17daaa8160ed58ee32a447cf5c",
-  "changelog": "1.5.1 hotfix: sửa crash khi vào chế độ lái xe — tạm chuyển mặc định về osmdroid (ổn định), MapLibre để opt-in cho tới khi device-verify xong.",
+  "sha256": "f05203e9327db5334f6dd457c97e9eeec92fead05658a2b0367ddf9428ecd647",
+  "changelog": "1.5.2: bật lại MapLibre (vector 3D) để thu thập logcat chẩn đoán crash. Nếu vẫn crash, gửi logcat để fix triệt để.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "94ffd8d293c19840238a63b7553a967d6cfd2d17daaa8160ed58ee32a447cf5c"
+      "sha256": "f05203e9327db5334f6dd457c97e9eeec92fead05658a2b0367ddf9428ecd647"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "1f334c694071b51a9f9e5a4916bc5aac403ce8ebedd2c031fe867edd2cd20f7c"
+      "sha256": "d654cb558b09c8644a4a1f5ddc5b1e375028e350e2fff51970282731ce6732af"
     }
   }
 }
