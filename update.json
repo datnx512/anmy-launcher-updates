@@ -1,17 +1,17 @@
 {
-  "versionCode": 42,
-  "versionName": "1.5.2",
+  "versionCode": 43,
+  "versionName": "1.5.3",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "f05203e9327db5334f6dd457c97e9eeec92fead05658a2b0367ddf9428ecd647",
-  "changelog": "1.5.2: bật lại MapLibre (vector 3D) để thu thập logcat chẩn đoán crash. Nếu vẫn crash, gửi logcat để fix triệt để.",
+  "sha256": "f3526268def0913a9ffd84f2d1c818177c12e284b71b73b5f18a19a4e7d4fcde",
+  "changelog": "1.5.3 hotfix: fix crash khi vào chế độ lái — gọi MapLibre.getInstance() TRƯỚC khi tạo MapView (MapLibre 11 yêu cầu init, nếu không ném MapLibreConfigurationException). MapLibre vector map hoạt động ổn định.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "f05203e9327db5334f6dd457c97e9eeec92fead05658a2b0367ddf9428ecd647"
+      "sha256": "f3526268def0913a9ffd84f2d1c818177c12e284b71b73b5f18a19a4e7d4fcde"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "d654cb558b09c8644a4a1f5ddc5b1e375028e350e2fff51970282731ce6732af"
+      "sha256": "d73f1934d126a8eb1326e5d5d2c1c1b1446112f1e4c74220a881cefd5ab27789"
     }
   }
 }
