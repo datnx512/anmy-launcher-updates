@@ -1,17 +1,17 @@
 {
-  "versionCode": 43,
-  "versionName": "1.5.3",
+  "versionCode": 44,
+  "versionName": "1.8.0",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "f3526268def0913a9ffd84f2d1c818177c12e284b71b73b5f18a19a4e7d4fcde",
-  "changelog": "1.5.3 hotfix: fix crash khi vào chế độ lái — gọi MapLibre.getInstance() TRƯỚC khi tạo MapView (MapLibre 11 yêu cầu init, nếu không ném MapLibreConfigurationException). MapLibre vector map hoạt động ổn định.",
+  "sha256": "c486ce42555b07af549c65020c6c935808e2e985e1eaec4b3aa0e026c99b82ca",
+  "changelog": "1.8.0 (3C): Tính năng Vietmap đặc thù VN — khu đông dân cư tự động (R.420/R.421 → 50 km/h + voice), trạm thu phí BOT (cảnh báo + voice), camera phạt nguội đa mục tiêu (tốc độ/vượt đèn/sai làn), Junction 3D view (phóng to nút giao + lane sáng), HUD mode (lật gương AMOLED), cảnh báo ổ gà/ngập/đường xấu, speed camera OTA update. 148 unit test PASS.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "f3526268def0913a9ffd84f2d1c818177c12e284b71b73b5f18a19a4e7d4fcde"
+      "sha256": "c486ce42555b07af549c65020c6c935808e2e985e1eaec4b3aa0e026c99b82ca"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "d73f1934d126a8eb1326e5d5d2c1c1b1446112f1e4c74220a881cefd5ab27789"
+      "sha256": "4a139c01a3fabd18c1dc6c3ee8aecf092ab84c2c27d4626da15cecbf0b24af69"
     }
   }
 }
