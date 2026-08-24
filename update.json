@@ -1,17 +1,17 @@
 {
-  "versionCode": 37,
-  "versionName": "0.8.5",
+  "versionCode": 38,
+  "versionName": "0.8.6",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "ff52b12d709b0abf4d96e64d024894edb28a02b30b7620e0816cf587e3458532",
-  "changelog": "0.8.5: Voice — thêm Google Cloud TTS + Azure TTS + ElevenLabs + Seed-TTS 2.0 (6 provider); chọn giọng vi-VN/en-US cho từng provider; voiceId + API key trong cài đặt. TTS fallback tự động (Google/Azure→Edge→System).",
+  "sha256": "9c9f8d50ee8bee0b43c46fdf319de8a59ba88193aac3619d158665d5c2bbc7a1",
+  "changelog": "0.8.6: Cài đặt chế độ lái — thêm mục Cấp quyền & Vị trí cài đặt thiết bị (GPS, MediaSession, Bluetooth, Micro, Thông báo, Danh bạ); Hộp thoại thông báo khi chuyển từ màn hình trẻ sang chế độ lái xe (ghi nhớ lần khởi động sau vào thẳng Drive); Tính năng đặt Drive làm màn hình mặc định khi khởi động (startInDriveOnBoot).",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "df309edff7845151c580de2b593241cecd47f6fdbdf470bf692881ddf9fc5c82"
+      "sha256": "8dae6d75c38eed3dcba3cd040fb28af6449eaf68afde758f3c0159ffdbce8060"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "03cca6c4387b33aceffd2a48f5aa981dbe3a5ecf3c2166c1c08d5e6be46bfa78"
+      "sha256": "ecef8f515b9bf2d7600debad1dec6e2c7504253bb14fb0a8540d0006f470ae12"
     }
   }
 }
