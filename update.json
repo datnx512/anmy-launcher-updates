@@ -1,17 +1,17 @@
 {
-  "versionCode": 40,
-  "versionName": "1.5.0",
+  "versionCode": 41,
+  "versionName": "1.5.1",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "de2e5c6a998e36c43fbd38dc2a0c8ff734b090b1584a45bff064ff218f638b0c",
-  "changelog": "1.5.0 (Core v2): Thay lõi navi đạt độ hoàn thiện Vietmap Live — MapLibre vector map (3D tilt, xoay heading-up, route/POI qua GeoJSON) thay osmdroid + toggle an toàn; RouteProvider + RoutingManager (fallback chain); NavigationEngine state machine + SnapToRoute (xe dính đường); curated speed camera DB + traffic incidents Room; audio ducking khi cảnh báo an toàn. Voice TTS tiếng Việt 4 mốc, biển báo QCVN 41, đồng hồ tốc độ tròn, 3 tuyến thay thế.",
+  "sha256": "94ffd8d293c19840238a63b7553a967d6cfd2d17daaa8160ed58ee32a447cf5c",
+  "changelog": "1.5.1 hotfix: sửa crash khi vào chế độ lái xe — tạm chuyển mặc định về osmdroid (ổn định), MapLibre để opt-in cho tới khi device-verify xong.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "de2e5c6a998e36c43fbd38dc2a0c8ff734b090b1584a45bff064ff218f638b0c"
+      "sha256": "94ffd8d293c19840238a63b7553a967d6cfd2d17daaa8160ed58ee32a447cf5c"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "a8f4f434c4135ae57c944e703500f8588b3a302e72d8ef34552667757be9308c"
+      "sha256": "1f334c694071b51a9f9e5a4916bc5aac403ce8ebedd2c031fe867edd2cd20f7c"
     }
   }
 }
