@@ -2,16 +2,16 @@
   "versionCode": 36,
   "versionName": "0.8.4",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "18d03230e1e0be15a072808889f532bbe74b82eccd21e494f8b7f1508d4bb1d1",
-  "changelog": "0.8.4: Navi UI Đợt 1 — Visual Impact. AlertBanner gradient đỏ siren nhấp nháy, Route Glow 2-layer, Destination Pin, Compass Rose + Heading Cone, Alert Ring POI marker, TripProgressBar + UpcomingPoiStrip, ZoomControls +/- ScaleBar, Voyager tiles ngày / DarkMatter đêm, Lifecycle map đúng.",
+  "sha256": "ba142ef3210f13cceddd45327147296511be37652f7b02ef0dc6e6bed0b46899",
+  "changelog": "0.8.4: Navi UI Đợt 1 — AlertBanner + Compass + Route Glow + Destination Pin + TripProgress + UpcomingPoiStrip + Zoom + ScaleBar + Voyager tiles. Lời chào Anmy: bong bóng dưới panel trái + auto-hide 4s + animation slide/fade.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "2f5c7c2e0f6b767177272939d2e5a7cb413822740f2265089f60343e6468ecec"
+      "sha256": "54d0b09a6e65405deb3b2aa5170fe1541936634ffae9300cad82268c4cc7d755"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "c412c3c8a341ad051728a070c5dd16ab34d49f945a5151e167945b6f3c794837"
+      "sha256": "816ac45d3a4b1ecbaf7a231124accf96d7aa56e893a9ecfdced8aedf79a13571"
     }
   }
 }
