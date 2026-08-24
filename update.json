@@ -1,17 +1,17 @@
 {
-  "versionCode": 36,
-  "versionName": "0.8.4",
+  "versionCode": 37,
+  "versionName": "0.8.5",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-universal-release.apk",
-  "sha256": "ba142ef3210f13cceddd45327147296511be37652f7b02ef0dc6e6bed0b46899",
-  "changelog": "0.8.4: Navi UI Đợt 1 — AlertBanner + Compass + Route Glow + Destination Pin + TripProgress + UpcomingPoiStrip + Zoom + ScaleBar + Voyager tiles. Lời chào Anmy: bong bóng dưới panel trái + auto-hide 4s + animation slide/fade.",
+  "sha256": "ff52b12d709b0abf4d96e64d024894edb28a02b30b7620e0816cf587e3458532",
+  "changelog": "0.8.5: Voice — thêm Google Cloud TTS + Azure TTS + ElevenLabs + Seed-TTS 2.0 (6 provider); chọn giọng vi-VN/en-US cho từng provider; voiceId + API key trong cài đặt. TTS fallback tự động (Google/Azure→Edge→System).",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "54d0b09a6e65405deb3b2aa5170fe1541936634ffae9300cad82268c4cc7d755"
+      "sha256": "df309edff7845151c580de2b593241cecd47f6fdbdf470bf692881ddf9fc5c82"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "816ac45d3a4b1ecbaf7a231124accf96d7aa56e893a9ecfdced8aedf79a13571"
+      "sha256": "03cca6c4387b33aceffd2a48f5aa981dbe3a5ecf3c2166c1c08d5e6be46bfa78"
     }
   }
 }
