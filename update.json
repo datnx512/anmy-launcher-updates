@@ -1,17 +1,17 @@
 {
-  "versionCode": 39,
-  "versionName": "1.0.0",
+  "versionCode": 40,
+  "versionName": "1.5.0",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "e8f9a18dfdd2c4ce14b00e22a5ff62704274158d7a0798dedcbe8bfc0b506123",
-  "changelog": "1.0.0: Plugin navi chuyên nghiệp (định hướng Vietmap Live) — Voice TTS tiếng Việt turn-by-turn (4 mốc 2km/500m/100m/50m) + cảnh báo camera/đèn; đồng hồ tốc độ tròn với viền cảnh báo đỏ khi quá tốc độ; biển báo giao thông chuẩn QCVN 41 ở góc phải; bản đồ xoay theo hướng xe (heading-up) + chế độ ngày/đêm tự động theo mặt trời; camera & đèn tín hiệu hiển thị trực tiếp trên tuyến đường; Room database (lịch sử chuyến đi + cache POI + camera tốc độ curated); 3 tuyến đường thay thế + lane guidance; MapLibre vector map (3D tilt, offline MBTiles).",
+  "sha256": "de2e5c6a998e36c43fbd38dc2a0c8ff734b090b1584a45bff064ff218f638b0c",
+  "changelog": "1.5.0 (Core v2): Thay lõi navi đạt độ hoàn thiện Vietmap Live — MapLibre vector map (3D tilt, xoay heading-up, route/POI qua GeoJSON) thay osmdroid + toggle an toàn; RouteProvider + RoutingManager (fallback chain); NavigationEngine state machine + SnapToRoute (xe dính đường); curated speed camera DB + traffic incidents Room; audio ducking khi cảnh báo an toàn. Voice TTS tiếng Việt 4 mốc, biển báo QCVN 41, đồng hồ tốc độ tròn, 3 tuyến thay thế.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "e8f9a18dfdd2c4ce14b00e22a5ff62704274158d7a0798dedcbe8bfc0b506123"
+      "sha256": "de2e5c6a998e36c43fbd38dc2a0c8ff734b090b1584a45bff064ff218f638b0c"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "a6e655938c3b392ea71e972a3ef9af142131cf320f10ee18b068241bef21091d"
+      "sha256": "a8f4f434c4135ae57c944e703500f8588b3a302e72d8ef34552667757be9308c"
     }
   }
 }
