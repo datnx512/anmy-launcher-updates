@@ -1,17 +1,17 @@
 {
-  "versionCode": 45,
-  "versionName": "1.10.0",
+  "versionCode": 46,
+  "versionName": "1.11.0",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "6ad536b3d3bf4f241fb63c0c71ae65359cd782085737bae9023e4f9fa4e35246",
-  "changelog": "1.10.0: MapTiler vector map (bản đồ thật VN) + route/POI trên MapTiler + 3D tilt + offline vector map (MapLibre OfflineManager tải theo tỉnh). Đầy đủ tính năng Vietmap Live: voice TTS VN, khu dân cư tự động, trạm BOT, camera phạt nguội, Junction 3D, HUD, 3 tuyến, trip history.",
+  "sha256": "21ddc8906a15c62058389a59fd9bc473b0ec9273dfe088432963c137e6a07819",
+  "changelog": "1.11.0: Hoàn thiện navi Vietmap Live — bản đồ MapTiler + 3 tuyến + 3D buildings + camera mượt; UI đẹp (sheet chọn tuyến, trip detail, search gợi ý); crowdsource traffic + overlay; speed camera OTA tự cập nhật; offline hoàn thiện (list/delete/progress) + adaptive GPS; xóa TileDownloadService cũ. 208 unit test.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "6ad536b3d3bf4f241fb63c0c71ae65359cd782085737bae9023e4f9fa4e35246"
+      "sha256": "21ddc8906a15c62058389a59fd9bc473b0ec9273dfe088432963c137e6a07819"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "6a03ca67768caf8e083fd0e2b39344c0d393e4385107be0fc491705f1e6c79a6"
+      "sha256": "413ebde9edc12836dfa655ec6b865bcc94b112ed3b3808bf629f24d970ad1820"
     }
   }
 }
