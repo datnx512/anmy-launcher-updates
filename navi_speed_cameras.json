@@ -1,186 +1,573 @@
 {
-  "version": 3,
-  "updatedAt": "2025-08-24",
+  "version": 4,
+  "updatedAt": "2026-08-25",
   "cameras": [
     {
-      "id": 1,
-      "lat": 10.7712,
-      "lon": 106.7,
-      "direction": "forward",
-      "maxspeed": 60,
-      "camType": "FIXED",
-      "targets": "speed,red_light"
-    },
-    {
-      "id": 2,
-      "lat": 10.8231,
-      "lon": 106.6297,
-      "direction": "both",
-      "maxspeed": 50,
-      "camType": "FIXED",
-      "targets": "speed,red_light,lane"
-    },
-    {
-      "id": 3,
-      "lat": 10.865,
-      "lon": 106.75,
-      "direction": "forward",
-      "maxspeed": 80,
+      "id": 622283987,
+      "lat": 21.5666479,
+      "lon": 108.017543,
+      "direction": null,
+      "maxspeed": 65,
       "camType": "FIXED",
       "targets": "speed"
     },
     {
-      "id": 4,
-      "lat": 21.0285,
-      "lon": 105.8542,
-      "direction": "both",
-      "maxspeed": 40,
+      "id": 3608242440,
+      "lat": 21.5664404,
+      "lon": 108.0176071,
+      "direction": null,
+      "maxspeed": 65,
       "camType": "FIXED",
-      "targets": "speed,lane"
-    },
-    {
-      "id": 5,
-      "lat": 20.98,
-      "lon": 105.85,
-      "direction": "forward",
-      "maxspeed": 60,
-      "camType": "MOBILE",
       "targets": "speed"
     },
     {
-      "id": 6,
-      "lat": 10.95,
-      "lon": 106.82,
-      "direction": "forward",
+      "id": 4595909889,
+      "lat": 11.9822836,
+      "lon": 104.9408127,
+      "direction": null,
+      "maxspeed": null,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 8128883029,
+      "lat": 11.5856669,
+      "lon": 105.4713481,
+      "direction": "125",
+      "maxspeed": 60,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 9965942820,
+      "lat": 21.6504515,
+      "lon": 108.3508017,
+      "direction": null,
+      "maxspeed": 65,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 10000920249,
+      "lat": 21.7226417,
+      "lon": 108.3591838,
+      "direction": null,
+      "maxspeed": 65,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 10302631202,
+      "lat": 21.7133717,
+      "lon": 108.3792705,
+      "direction": null,
+      "maxspeed": 65,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 10302658559,
+      "lat": 21.7128506,
+      "lon": 108.3789776,
+      "direction": null,
+      "maxspeed": 65,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11378989804,
+      "lat": 10.9560904,
+      "lon": 106.8129385,
+      "direction": null,
+      "maxspeed": 60,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11378989805,
+      "lat": 10.9562183,
+      "lon": 106.8127039,
+      "direction": null,
+      "maxspeed": 60,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762894,
+      "lat": 11.8662592,
+      "lon": 109.0849566,
+      "direction": null,
       "maxspeed": 90,
-      "camType": "AVERAGE_SPEED",
+      "camType": "FIXED",
       "targets": "speed"
     },
     {
-      "id": 7,
-      "lat": 10.7,
-      "lon": 106.72,
-      "direction": "both",
+      "id": 11837762895,
+      "lat": 11.8575338,
+      "lon": 109.0871051,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762896,
+      "lat": 11.8397751,
+      "lon": 109.0860621,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762897,
+      "lat": 11.8231765,
+      "lon": 109.0789683,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762898,
+      "lat": 11.805445,
+      "lon": 109.0722216,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762899,
+      "lat": 11.7887068,
+      "lon": 109.0691517,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762900,
+      "lat": 11.7886812,
+      "lon": 109.0692746,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762901,
+      "lat": 11.8054151,
+      "lon": 109.0723866,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762902,
+      "lat": 11.8230994,
+      "lon": 109.0791108,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762903,
+      "lat": 11.8397267,
+      "lon": 109.0862138,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762904,
+      "lat": 11.8575541,
+      "lon": 109.0872431,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762905,
+      "lat": 11.8662671,
+      "lon": 109.0851104,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762906,
+      "lat": 11.7714556,
+      "lon": 109.0642404,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762907,
+      "lat": 11.7713891,
+      "lon": 109.0643577,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762908,
+      "lat": 11.7635269,
+      "lon": 109.0599646,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762909,
+      "lat": 11.7634631,
+      "lon": 109.0601028,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762910,
+      "lat": 11.7588249,
+      "lon": 109.0572652,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762911,
+      "lat": 11.7587534,
+      "lon": 109.0574056,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762912,
+      "lat": 11.7322253,
+      "lon": 109.0418582,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762913,
+      "lat": 11.7322135,
+      "lon": 109.0418511,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762914,
+      "lat": 11.7321567,
+      "lon": 109.0419786,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762915,
+      "lat": 11.7321443,
+      "lon": 109.0419704,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762916,
+      "lat": 11.7166793,
+      "lon": 109.0326189,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762917,
+      "lat": 11.7166116,
+      "lon": 109.0327472,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762918,
+      "lat": 11.7044806,
+      "lon": 109.0197064,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762919,
+      "lat": 11.7043618,
+      "lon": 109.0197629,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762920,
+      "lat": 11.7015405,
+      "lon": 109.0053764,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11837762921,
+      "lat": 11.7014217,
+      "lon": 109.0053876,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 12071446856,
+      "lat": 21.6562917,
+      "lon": 108.3545083,
+      "direction": null,
+      "maxspeed": 65,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 12347047350,
+      "lat": 21.6709808,
+      "lon": 108.0580872,
+      "direction": null,
+      "maxspeed": 65,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 12531966522,
+      "lat": 21.6925721,
+      "lon": 108.3019773,
+      "direction": null,
+      "maxspeed": 100,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 12531966523,
+      "lat": 21.6931384,
+      "lon": 108.3008797,
+      "direction": null,
+      "maxspeed": 100,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 12536293221,
+      "lat": 21.7402101,
+      "lon": 108.3762864,
+      "direction": null,
+      "maxspeed": 120,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 12536293222,
+      "lat": 21.780844,
+      "lon": 108.3878003,
+      "direction": null,
+      "maxspeed": 120,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 12682524350,
+      "lat": 16.3947474,
+      "lon": 102.8131185,
+      "direction": null,
+      "maxspeed": null,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 12682541713,
+      "lat": 16.3946923,
+      "lon": 102.8128886,
+      "direction": null,
+      "maxspeed": null,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 12830345708,
+      "lat": 21.6240058,
+      "lon": 108.254795,
+      "direction": null,
+      "maxspeed": null,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 13354673787,
+      "lat": 12.6597929,
+      "lon": 108.0304502,
+      "direction": "235",
       "maxspeed": 50,
       "camType": "FIXED",
-      "targets": "speed,red_light"
-    },
-    {
-      "id": 8,
-      "lat": 11.0,
-      "lon": 106.85,
-      "direction": "forward",
-      "maxspeed": 80,
-      "camType": "FIXED",
       "targets": "speed"
     },
     {
-      "id": 9,
-      "lat": 10.78,
-      "lon": 106.69,
-      "direction": "both",
-      "maxspeed": 60,
-      "camType": "FIXED",
-      "targets": "speed,lane"
-    },
-    {
-      "id": 10,
-      "lat": 21.03,
-      "lon": 105.78,
-      "direction": "forward",
+      "id": 13354687534,
+      "lat": 12.7119694,
+      "lon": 108.0696943,
+      "direction": "45",
       "maxspeed": 50,
       "camType": "FIXED",
       "targets": "speed"
     },
     {
-      "id": 11,
-      "lat": 21.027,
-      "lon": 105.9,
-      "direction": "both",
-      "maxspeed": 60,
-      "camType": "FIXED",
-      "targets": "speed,red_light"
-    },
-    {
-      "id": 12,
-      "lat": 16.07,
-      "lon": 108.22,
-      "direction": "forward",
-      "maxspeed": 50,
+      "id": 13536679712,
+      "lat": 20.9155038,
+      "lon": 105.9507918,
+      "direction": "330",
+      "maxspeed": null,
       "camType": "FIXED",
       "targets": "speed"
     },
     {
-      "id": 13,
-      "lat": 16.05,
-      "lon": 108.21,
-      "direction": "both",
-      "maxspeed": 40,
-      "camType": "FIXED",
-      "targets": "speed,lane"
-    },
-    {
-      "id": 14,
-      "lat": 20.86,
-      "lon": 106.69,
-      "direction": "forward",
-      "maxspeed": 60,
-      "camType": "MOBILE",
-      "targets": "speed"
-    },
-    {
-      "id": 15,
-      "lat": 10.89,
-      "lon": 106.61,
-      "direction": "that",
-      "maxspeed": 50,
-      "camType": "FIXED",
-      "targets": "speed,red_light"
-    },
-    {
-      "id": 16,
-      "lat": 10.8,
-      "lon": 106.67,
-      "direction": "both",
-      "maxspeed": 60,
-      "camType": "AVERAGE_SPEED",
-      "targets": "speed"
-    },
-    {
-      "id": 17,
-      "lat": 20.92,
-      "lon": 105.9,
-      "direction": "forward",
-      "maxspeed": 80,
+      "id": 13536679714,
+      "lat": 20.9160432,
+      "lon": 105.9508311,
+      "direction": "5",
+      "maxspeed": null,
       "camType": "FIXED",
       "targets": "speed"
     },
     {
-      "id": 18,
-      "lat": 10.76,
-      "lon": 106.68,
-      "direction": "both",
-      "maxspeed": 50,
-      "camType": "FIXED",
-      "targets": "speed,lane"
-    },
-    {
-      "id": 19,
-      "lat": 21.04,
-      "lon": 105.92,
-      "direction": "forward",
-      "maxspeed": 60,
+      "id": 13536709045,
+      "lat": 20.9434159,
+      "lon": 106.0007871,
+      "direction": "270",
+      "maxspeed": null,
       "camType": "FIXED",
       "targets": "speed"
     },
     {
-      "id": 20,
-      "lat": 10.72,
-      "lon": 106.65,
-      "direction": "both",
-      "maxspeed": 50,
+      "id": 13536709046,
+      "lat": 20.9434121,
+      "lon": 106.0007888,
+      "direction": "195",
+      "maxspeed": null,
       "camType": "FIXED",
-      "targets": "speed,red_light"
+      "targets": "speed"
+    },
+    {
+      "id": 13597253330,
+      "lat": 21.1520522,
+      "lon": 106.2307833,
+      "direction": "15",
+      "maxspeed": null,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 13597253331,
+      "lat": 21.152052,
+      "lon": 106.230785,
+      "direction": "50",
+      "maxspeed": null,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 13597253332,
+      "lat": 21.1520512,
+      "lon": 106.2307835,
+      "direction": "175",
+      "maxspeed": null,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 13622013243,
+      "lat": 20.9445148,
+      "lon": 105.9914385,
+      "direction": "350",
+      "maxspeed": null,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 13622013244,
+      "lat": 20.9445136,
+      "lon": 105.9914387,
+      "direction": "155",
+      "maxspeed": null,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 13622013245,
+      "lat": 20.9445182,
+      "lon": 105.9914401,
+      "direction": "25",
+      "maxspeed": null,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 13994525135,
+      "lat": 11.8057092,
+      "lon": 109.0724502,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 13994525136,
+      "lat": 11.8049701,
+      "lon": 109.0722839,
+      "direction": null,
+      "maxspeed": 90,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 13995843722,
+      "lat": 21.0664671,
+      "lon": 105.9063159,
+      "direction": null,
+      "maxspeed": null,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 14087218246,
+      "lat": 17.5472526,
+      "lon": 102.8007897,
+      "direction": null,
+      "maxspeed": null,
+      "camType": "FIXED",
+      "targets": "speed"
     }
   ]
 }
