@@ -1,17 +1,17 @@
 {
-  "versionCode": 55,
-  "versionName": "1.11.9",
+  "versionCode": 56,
+  "versionName": "1.11.10",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "ffc9593744506987a0b358fe7405f4e809c7c67ee8edca067c20e0073afb2898",
-  "changelog": "1.11.9: Chế độ lái — sửa lỗi tự ghim lại (lock-task) khi về home sau khi mở app native: enableKiosk không còn tự ghim khi chế độ lái đang active (kể cả khi kioskState bị reset do activity recreate), nên người lái ở được app native thay vì bị đá về launcher.",
+  "sha256": "12c2d763c795a19ed32c8ed7c4e780a216de313342c0f40b5e7404ffb733bb51",
+  "changelog": "1.11.10: NAVI hiển thị POI đầy đủ hơn — luôn merge camera tốc độ (seed + OTA từ Room) lên bản đồ kể cả khi Overpass fail/timeout trên mạng xe; Overpass thêm mirror dự phòng (kumi) + retry cho đèn tín hiệu/biển báo; refresh POI nhanh hơn (60s→20s).",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "ffc9593744506987a0b358fe7405f4e809c7c67ee8edca067c20e0073afb2898"
+      "sha256": "12c2d763c795a19ed32c8ed7c4e780a216de313342c0f40b5e7404ffb733bb51"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "d4b015a17b8cc949fa30270a6a40909d8bfe9b49cdec10faf87036658cfe8ef0"
+      "sha256": "d9fdac2999dfd8aeba12de20778071f0062ec74ddfef107f6904af3284fcac05"
     }
   }
 }
