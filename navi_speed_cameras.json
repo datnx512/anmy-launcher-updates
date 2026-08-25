@@ -1,26 +1,186 @@
 {
-  "version": 2,
+  "version": 3,
   "updatedAt": "2025-08-24",
   "cameras": [
-    {"id": 1, "lat": 10.7712, "lon": 106.7000, "direction": "forward", "maxspeed": 60, "camType": "FIXED", "targets": "speed"},
-    {"id": 2, "lat": 10.8231, "lon": 106.6297, "direction": "both", "maxspeed": 50, "camType": "FIXED", "targets": "speed,red_light"},
-    {"id": 3, "lat": 10.8650, "lon": 106.7500, "direction": "forward", "maxspeed": 80, "camType": "FIXED", "targets": "speed"},
-    {"id": 4, "lat": 21.0285, "lon": 105.8542, "direction": "both", "maxspeed": 40, "camType": "FIXED", "targets": "speed,lane"},
-    {"id": 5, "lat": 20.9800, "lon": 105.8500, "direction": "forward", "maxspeed": 60, "camType": "MOBILE", "targets": "speed"},
-    {"id": 6, "lat": 10.9500, "lon": 106.8200, "direction": "forward", "maxspeed": 90, "camType": "AVERAGE_SPEED", "targets": "speed"},
-    {"id": 7, "lat": 10.7000, "lon": 106.7200, "direction": "both", "maxspeed": 50, "camType": "FIXED", "targets": "speed,red_light"},
-    {"id": 8, "lat": 11.0000, "lon": 106.8500, "direction": "forward", "maxspeed": 80, "camType": "FIXED", "targets": "speed"},
-    {"id": 9, "lat": 10.7800, "lon": 106.6900, "direction": "both", "maxspeed": 60, "camType": "FIXED", "targets": "speed,lane"},
-    {"id": 10, "lat": 21.0300, "lon": 105.7800, "direction": "forward", "maxspeed": 50, "camType": "FIXED", "targets": "speed"},
-    {"id": 11, "lat": 21.0270, "lon": 105.9000, "direction": "both", "maxspeed": 60, "camType": "FIXED", "targets": "speed,red_light"},
-    {"id": 12, "lat": 16.0700, "lon": 108.2200, "direction": "forward", "maxspeed": 50, "camType": "FIXED", "targets": "speed"},
-    {"id": 13, "lat": 16.0500, "lon": 108.2100, "direction": "both", "maxspeed": 40, "camType": "FIXED", "targets": "speed,lane"},
-    {"id": 14, "lat": 20.8600, "lon": 106.6900, "direction": "forward", "maxspeed": 60, "camType": "MOBILE", "targets": "speed"},
-    {"id": 15, "lat": 10.8900, "lon": 106.6100, "direction": "that", "maxspeed": 50, "camType": "FIXED", "targets": "speed,red_light"},
-    {"id": 16, "lat": 10.8000, "lon": 106.6700, "direction": "both", "maxspeed": 60, "camType": "AVERAGE_SPEED", "targets": "speed"},
-    {"id": 17, "lat": 20.9200, "lon": 105.9000, "direction": "forward", "maxspeed": 80, "camType": "FIXED", "targets": "speed"},
-    {"id": 18, "lat": 10.7600, "lon": 106.6800, "direction": "both", "maxspeed": 50, "camType": "FIXED", "targets": "speed,lane"},
-    {"id": 19, "lat": 21.0400, "lon": 105.9200, "direction": "forward", "maxspeed": 60, "camType": "FIXED", "targets": "speed"},
-    {"id": 20, "lat": 10.7200, "lon": 106.6500, "direction": "both", "maxspeed": 50, "camType": "FIXED", "targets": "speed,red_light"}
+    {
+      "id": 1,
+      "lat": 10.7712,
+      "lon": 106.7,
+      "direction": "forward",
+      "maxspeed": 60,
+      "camType": "FIXED",
+      "targets": "speed,red_light"
+    },
+    {
+      "id": 2,
+      "lat": 10.8231,
+      "lon": 106.6297,
+      "direction": "both",
+      "maxspeed": 50,
+      "camType": "FIXED",
+      "targets": "speed,red_light,lane"
+    },
+    {
+      "id": 3,
+      "lat": 10.865,
+      "lon": 106.75,
+      "direction": "forward",
+      "maxspeed": 80,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 4,
+      "lat": 21.0285,
+      "lon": 105.8542,
+      "direction": "both",
+      "maxspeed": 40,
+      "camType": "FIXED",
+      "targets": "speed,lane"
+    },
+    {
+      "id": 5,
+      "lat": 20.98,
+      "lon": 105.85,
+      "direction": "forward",
+      "maxspeed": 60,
+      "camType": "MOBILE",
+      "targets": "speed"
+    },
+    {
+      "id": 6,
+      "lat": 10.95,
+      "lon": 106.82,
+      "direction": "forward",
+      "maxspeed": 90,
+      "camType": "AVERAGE_SPEED",
+      "targets": "speed"
+    },
+    {
+      "id": 7,
+      "lat": 10.7,
+      "lon": 106.72,
+      "direction": "both",
+      "maxspeed": 50,
+      "camType": "FIXED",
+      "targets": "speed,red_light"
+    },
+    {
+      "id": 8,
+      "lat": 11.0,
+      "lon": 106.85,
+      "direction": "forward",
+      "maxspeed": 80,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 9,
+      "lat": 10.78,
+      "lon": 106.69,
+      "direction": "both",
+      "maxspeed": 60,
+      "camType": "FIXED",
+      "targets": "speed,lane"
+    },
+    {
+      "id": 10,
+      "lat": 21.03,
+      "lon": 105.78,
+      "direction": "forward",
+      "maxspeed": 50,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 11,
+      "lat": 21.027,
+      "lon": 105.9,
+      "direction": "both",
+      "maxspeed": 60,
+      "camType": "FIXED",
+      "targets": "speed,red_light"
+    },
+    {
+      "id": 12,
+      "lat": 16.07,
+      "lon": 108.22,
+      "direction": "forward",
+      "maxspeed": 50,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 13,
+      "lat": 16.05,
+      "lon": 108.21,
+      "direction": "both",
+      "maxspeed": 40,
+      "camType": "FIXED",
+      "targets": "speed,lane"
+    },
+    {
+      "id": 14,
+      "lat": 20.86,
+      "lon": 106.69,
+      "direction": "forward",
+      "maxspeed": 60,
+      "camType": "MOBILE",
+      "targets": "speed"
+    },
+    {
+      "id": 15,
+      "lat": 10.89,
+      "lon": 106.61,
+      "direction": "that",
+      "maxspeed": 50,
+      "camType": "FIXED",
+      "targets": "speed,red_light"
+    },
+    {
+      "id": 16,
+      "lat": 10.8,
+      "lon": 106.67,
+      "direction": "both",
+      "maxspeed": 60,
+      "camType": "AVERAGE_SPEED",
+      "targets": "speed"
+    },
+    {
+      "id": 17,
+      "lat": 20.92,
+      "lon": 105.9,
+      "direction": "forward",
+      "maxspeed": 80,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 18,
+      "lat": 10.76,
+      "lon": 106.68,
+      "direction": "both",
+      "maxspeed": 50,
+      "camType": "FIXED",
+      "targets": "speed,lane"
+    },
+    {
+      "id": 19,
+      "lat": 21.04,
+      "lon": 105.92,
+      "direction": "forward",
+      "maxspeed": 60,
+      "camType": "FIXED",
+      "targets": "speed"
+    },
+    {
+      "id": 20,
+      "lat": 10.72,
+      "lon": 106.65,
+      "direction": "both",
+      "maxspeed": 50,
+      "camType": "FIXED",
+      "targets": "speed,red_light"
+    }
   ]
 }
