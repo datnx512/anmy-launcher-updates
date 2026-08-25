@@ -1,17 +1,17 @@
 {
-  "versionCode": 50,
-  "versionName": "1.11.4",
+  "versionCode": 51,
+  "versionName": "1.11.5",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "9d5fe6a31172f6f5d43bc1adde771497792d92c0d4fbeabc2a05b2a3df616b48",
-  "changelog": "1.11.4: Drive Mode nâng cấp — Cập nhật NGAY trong chế độ lái (kiểm tra/tải/cài từ Cài đặt); Cài đặt Live2D + API Key (LLM) + Giọng nói (TTS) trong chế độ lái (dùng chung ParentSettings với cổng phụ huynh); Đổi giọng TTS áp dụng ngay không cần khởi động lại.",
+  "sha256": "a3ed00233f8cd1c3fd094ef1787d14c969bbc2074d315bc83f44bf0e0bfa02b4",
+  "changelog": "1.11.5: NAVI sửa GPS trên máy thật — vị trí realtime (LocationManager GPS trực tiếp, không phụ thuộc Google Play Services/Fused) + bỏ nạp vị trí network/lastKnown cũ. Mũi tên dẫn đường không còn lệch khu vực/ẩn-hiện/giật hoặc sai hướng.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "9d5fe6a31172f6f5d43bc1adde771497792d92c0d4fbeabc2a05b2a3df616b48"
+      "sha256": "a3ed00233f8cd1c3fd094ef1787d14c969bbc2074d315bc83f44bf0e0bfa02b4"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "facfbede284d06980995a18e818b04bb3556ce9d37706eef1ac77c9751e589c0"
+      "sha256": "818243b14b96890a681e55584408c8a172b21e48862ad0f7a4f1cf7a41f5923a"
     }
   }
 }
