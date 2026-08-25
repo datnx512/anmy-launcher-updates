@@ -1,17 +1,17 @@
 {
-  "versionCode": 47,
-  "versionName": "1.11.1",
+  "versionCode": 48,
+  "versionName": "1.11.2",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "952b36622977e1a03a2d3acb4623aeb72c7643c33fa5b6b5830b09990ed23fa3",
-  "changelog": "1.11.1: NAVI — traffic realtime (TomTom) overlay congestion + ETA theo traffic; mũi tên định vị kiểu Google Maps + bỏ la bàn; menu gọn (Tìm/Quanh/Vùng/Lịch sử/Báo) góc dưới-trái; HUD + speedometer bố trí mới; 224 unit test.",
+  "sha256": "4425bff30a5966b18fa61e33059e6538cfca575e54a2a5614a8e7a523c4744bd",
+  "changelog": "1.11.2: NAVI Vietmap Live — traffic realtime (TomTom) overlay congestion + ETA theo traffic; voice navigate + biểu cảm Live2D; mũi tên định vị + bỏ la bàn; menu gọn (Tìm/Quanh/Vùng/Lịch sử/Báo); speed camera 20 camera + targets; key MapTiler mã hoá; 227 unit test.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "952b36622977e1a03a2d3acb4623aeb72c7643c33fa5b6b5830b09990ed23fa3"
+      "sha256": "4425bff30a5966b18fa61e33059e6538cfca575e54a2a5614a8e7a523c4744bd"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "990d6c077fb3d91b3301eb330a126e12e54121cfd24a6a9491035e434675b5f7"
+      "sha256": "22b38556d130c3be96aa957be4b7b15581cb91bebd93d3888eaa130ac6102bb8"
     }
   }
 }
