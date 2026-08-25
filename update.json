@@ -1,17 +1,17 @@
 {
-  "versionCode": 58,
-  "versionName": "1.11.12",
+  "versionCode": 59,
+  "versionName": "1.11.13",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "c94042ca58e65e2646557feefa2372c3e514f140ef1d5d88a0f5fbc8d248960d",
-  "changelog": "1.11.12: Mở rộng dataset biển báo giao thông — bundle 177 biển báo OSM Việt Nam (tốc độ/cấm/hướng…) vào app, luôn hiển thị trên bản đồ kể cả khi Overpass fail (cộng thêm, không thay Overpass tươi); kèm mirror Overpass maps.mail.ru (từ 1.11.11) cho đèn tín hiệu/biển mới.",
+  "sha256": "54ef03885e7836186fae337c2e7b6601ccbf53d1a1502982489fa1f997d0d693",
+  "changelog": "1.11.13: Chế độ lái — sửa lỗi thanh trạng thái hệ thống hiện lại khi tắt ghim ứng dụng (stopLockTask): luôn giữ immersive (ẩn thanh) khi lái bằng cách re-apply sau transition + mỗi lần cửa sổ nhận lại focus (không ghim lại để vẫn mở được app native).",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "c94042ca58e65e2646557feefa2372c3e514f140ef1d5d88a0f5fbc8d248960d"
+      "sha256": "54ef03885e7836186fae337c2e7b6601ccbf53d1a1502982489fa1f997d0d693"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "df18fdd10a21407764604edeabb36d70523f26feea7420145bc15e73f8c9d351"
+      "sha256": "a43b0d0ffd32ec6a31d88da0a03d77dbc5e0379d05a0eadb8e60e31919bb83de"
     }
   }
 }
