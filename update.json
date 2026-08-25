@@ -1,17 +1,17 @@
 {
-  "versionCode": 56,
-  "versionName": "1.11.10",
+  "versionCode": 57,
+  "versionName": "1.11.11",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "12c2d763c795a19ed32c8ed7c4e780a216de313342c0f40b5e7404ffb733bb51",
-  "changelog": "1.11.10: NAVI hiển thị POI đầy đủ hơn — luôn merge camera tốc độ (seed + OTA từ Room) lên bản đồ kể cả khi Overpass fail/timeout trên mạng xe; Overpass thêm mirror dự phòng (kumi) + retry cho đèn tín hiệu/biển báo; refresh POI nhanh hơn (60s→20s).",
+  "sha256": "b98b1c38803428845f952ba5c209e75c6c981f781d41bd1cc793c8747ec8aa98",
+  "changelog": "1.11.11: Dữ liệu POI phong phú hơn — speed camera OTA v4 (63 camera thật từ OSM toàn Việt Nam, thay 20 bản seed); nguồn Overpass thêm mirror maps.mail.ru (phủ toàn cầu, hay tới được cho VN) giúp camera/đèn tín hiệu/biển báo tải đáng tin hơn.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "12c2d763c795a19ed32c8ed7c4e780a216de313342c0f40b5e7404ffb733bb51"
+      "sha256": "b98b1c38803428845f952ba5c209e75c6c981f781d41bd1cc793c8747ec8aa98"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "d9fdac2999dfd8aeba12de20778071f0062ec74ddfef107f6904af3284fcac05"
+      "sha256": "3ae0074b3e4efe62cfd83ac66e5212ea18cd7946ad84f0df418b0e658348a585"
     }
   }
 }
