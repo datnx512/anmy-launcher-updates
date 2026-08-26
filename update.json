@@ -1,17 +1,17 @@
 {
-  "versionCode": 64,
-  "versionName": "1.11.18",
+  "versionCode": 65,
+  "versionName": "1.11.19",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "2c3d93716d488a56bba1e6eb6ae0db1b2c4cc3d9c8819a67d6fb018e2eef1d2a",
-  "changelog": "Anmy AI trợ lý toàn diện (agentic + nhiều ngữ cảnh Main/Kid/Drive) + cấu hình Audio Input/Output sửa máy thật không thu/phát âm thanh.",
+  "sha256": "8eb8eeb0227dfcdc12e42a66d5b59f8dfeecdaebd509a5d1a9129f70bdd4b97d",
+  "changelog": "Anmy AI trợ lý toàn diện (agentic) + cấu hình Audio Input/Output dạng dropdown thiết bị phần cứng thật (sửa máy thật không thu/phát).",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "2c3d93716d488a56bba1e6eb6ae0db1b2c4cc3d9c8819a67d6fb018e2eef1d2a"
+      "sha256": "8eb8eeb0227dfcdc12e42a66d5b59f8dfeecdaebd509a5d1a9129f70bdd4b97d"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "35b540efeb6748fb414b2c444fdf36f003cfca886dd9948d0063834486819ca4"
+      "sha256": "fd2de874e998fb44c1816ab128d2fd15fcfea38adcb37e56e8de315b3d350a03"
     }
   }
 }
