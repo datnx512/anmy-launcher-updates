@@ -1,17 +1,17 @@
 {
-  "versionCode": 62,
-  "versionName": "1.11.16",
+  "versionCode": 63,
+  "versionName": "1.11.17",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "6dd838df815822d60fb64601fb6f20c1cd05b0cdce6e9b4777289085c4a4eefb",
-  "changelog": "1.11.16: Cập nhật tự động bắt buộc — khi có bản mới hiện popup toàn màn hình (nút Cập nhật duy nhất, không thể bỏ qua), chặn dùng app tới khi cài xong, hiện trên mọi màn hình; sửa cài được bản cập nhật khi đang ghim (kiosk) — tự thả ghim trước khi mở trình cài đặt; mở app từ icon không còn bắt PIN trên màn hình chính; nút Cài đặt ở main chỉ còn icon.",
+  "sha256": "153e5628db7fdd9c496ab82940eca8c6982d7ef209d62d64a8e2b92974e05ce6",
+  "changelog": "shell v1.11.17 (code 63): Hệ thống design Material 3 đồng nhất toàn app — refactor toàn bộ màn hình Cài đặt (bộ component/icon dùng chung + khối Anmy), Main/Drive/Kid/BrainGraph/status bar lên nền tảng M3, theme theo mode (Main/Drive dark, Kid light), giữ gradient thương hiệu. Bump shell v1.11.17 (code 63).",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "6dd838df815822d60fb64601fb6f20c1cd05b0cdce6e9b4777289085c4a4eefb"
+      "sha256": "153e5628db7fdd9c496ab82940eca8c6982d7ef209d62d64a8e2b92974e05ce6"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "d8cf56c274de9ddef848bc567aa0b40a765dafe5b27935f07d254ed57ceced58"
+      "sha256": "6412d9897bc1dc62f128063a337955d6df285b3b3c6cce0a0a7583d9831b98a5"
     }
   }
 }
