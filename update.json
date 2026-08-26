@@ -1,17 +1,17 @@
 {
-  "versionCode": 60,
-  "versionName": "1.11.14",
+  "versionCode": 61,
+  "versionName": "1.11.15",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "fa0a2582143252e0186ee24c92b5b39ef17295393e0db10f2721fa045f1df9e5",
-  "changelog": "1.11.14: Màn hình chính mới (Main - Anmy AI + Live2D) thay kid screen làm homescreen; hub điều hướng 3 màn Main/Kid/Drive qua hamburger+drawer; ma trận PIN chỉ khi rời khỏi Kid (kid->main/drive cần PIN, còn lại tự do); bỏ nút 'Vào chế độ lái xe ngay' + DriveTransitionDialog khỏi cài đặt kid; thoát Drive không cần PIN.",
+  "sha256": "1f6ccbb1e0be099a3580e639a648d3d7d4a6da77ecbe0a78a1913606d004ff8e",
+  "changelog": "1.11.15: Kiosk chỉ ghim màn hình trẻ (Kid) - Main (Anmy AI) và Drive tắt ghim, thanh hệ thống hiện lại trên Main; Cài đặt Anmy AI trên home screen là module riêng tách khỏi chế độ trẻ em (không còn hồ sơ trẻ/giới hạn/giờ nghỉ/whitelist/kiosk/báo cáo) và mở trực tiếp không cần PIN.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "fa0a2582143252e0186ee24c92b5b39ef17295393e0db10f2721fa045f1df9e5"
+      "sha256": "1f6ccbb1e0be099a3580e639a648d3d7d4a6da77ecbe0a78a1913606d004ff8e"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "2c19e52644516b330efd92c627aafc2b3789f17c76c509f0a3e79d0edc3c392f"
+      "sha256": "87a85ba3c100019c1ba6d5a10ad4a9f0b41ccb366d57c652cf8ce936aafbb698"
     }
   }
 }
