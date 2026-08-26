@@ -1,17 +1,17 @@
 {
-  "versionCode": 61,
-  "versionName": "1.11.15",
+  "versionCode": 62,
+  "versionName": "1.11.16",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "1f6ccbb1e0be099a3580e639a648d3d7d4a6da77ecbe0a78a1913606d004ff8e",
-  "changelog": "1.11.15: Kiosk chỉ ghim màn hình trẻ (Kid) - Main (Anmy AI) và Drive tắt ghim, thanh hệ thống hiện lại trên Main; Cài đặt Anmy AI trên home screen là module riêng tách khỏi chế độ trẻ em (không còn hồ sơ trẻ/giới hạn/giờ nghỉ/whitelist/kiosk/báo cáo) và mở trực tiếp không cần PIN.",
+  "sha256": "6dd838df815822d60fb64601fb6f20c1cd05b0cdce6e9b4777289085c4a4eefb",
+  "changelog": "1.11.16: Cập nhật tự động bắt buộc — khi có bản mới hiện popup toàn màn hình (nút Cập nhật duy nhất, không thể bỏ qua), chặn dùng app tới khi cài xong, hiện trên mọi màn hình; sửa cài được bản cập nhật khi đang ghim (kiosk) — tự thả ghim trước khi mở trình cài đặt; mở app từ icon không còn bắt PIN trên màn hình chính; nút Cài đặt ở main chỉ còn icon.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "1f6ccbb1e0be099a3580e639a648d3d7d4a6da77ecbe0a78a1913606d004ff8e"
+      "sha256": "6dd838df815822d60fb64601fb6f20c1cd05b0cdce6e9b4777289085c4a4eefb"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "87a85ba3c100019c1ba6d5a10ad4a9f0b41ccb366d57c652cf8ce936aafbb698"
+      "sha256": "d8cf56c274de9ddef848bc567aa0b40a765dafe5b27935f07d254ed57ceced58"
     }
   }
 }
