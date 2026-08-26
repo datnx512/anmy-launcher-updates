@@ -1,17 +1,17 @@
 {
-  "versionCode": 63,
-  "versionName": "1.11.17",
+  "versionCode": 64,
+  "versionName": "1.11.18",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "153e5628db7fdd9c496ab82940eca8c6982d7ef209d62d64a8e2b92974e05ce6",
-  "changelog": "shell v1.11.17 (code 63): Hệ thống design Material 3 đồng nhất toàn app — refactor toàn bộ màn hình Cài đặt (bộ component/icon dùng chung + khối Anmy), Main/Drive/Kid/BrainGraph/status bar lên nền tảng M3, theme theo mode (Main/Drive dark, Kid light), giữ gradient thương hiệu. Bump shell v1.11.17 (code 63).",
+  "sha256": "2c3d93716d488a56bba1e6eb6ae0db1b2c4cc3d9c8819a67d6fb018e2eef1d2a",
+  "changelog": "Anmy AI trợ lý toàn diện (agentic + nhiều ngữ cảnh Main/Kid/Drive) + cấu hình Audio Input/Output sửa máy thật không thu/phát âm thanh.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "153e5628db7fdd9c496ab82940eca8c6982d7ef209d62d64a8e2b92974e05ce6"
+      "sha256": "2c3d93716d488a56bba1e6eb6ae0db1b2c4cc3d9c8819a67d6fb018e2eef1d2a"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "6412d9897bc1dc62f128063a337955d6df285b3b3c6cce0a0a7583d9831b98a5"
+      "sha256": "35b540efeb6748fb414b2c444fdf36f003cfca886dd9948d0063834486819ca4"
     }
   }
 }
