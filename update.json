@@ -1,17 +1,17 @@
 {
-  "versionCode": 70,
-  "versionName": "1.11.24",
+  "versionCode": 71,
+  "versionName": "1.11.25",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "0873a3c22ba7a48c76ab3487449c9f252b98ed5254bb2820f0f454c10846ca08",
-  "changelog": "1.11.24: Sửa mũi tên định vị bị nhấp nháy/giật khi di chuyển — hạn chế cập nhật lại source vị trí trên bản đồ (chỉ khi điểm dịch chuyển >1.5m hoặc hướng đổi >4°) và nội suy góc mũi tên mượt, khử nhiễu GPS course; đồng thời không tạo lại icon mũi tên mỗi frame ở chế độ osmdroid.",
+  "sha256": "4158d4eba1247a0c1c2c73771f894cc89cd002f906fbece189b9b3ec20628ce6",
+  "changelog": "1.11.25: Sửa tiếp mũi tên định vị nhấp nháy khi di chuyển — giới hạn tần suất cập nhật source vị trí trên bản đồ (tối thiểu 300ms/lần), chỉ xoay khi hướng đổi đủ lớn (>6°) hoặc điểm dịch chuyển >3m, và giữ nguyên hướng mũi tên khi xe chạy chậm (<5km/h) để khử nhiễu GPS; xoay mượt theo hướng đích.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "0873a3c22ba7a48c76ab3487449c9f252b98ed5254bb2820f0f454c10846ca08"
+      "sha256": "4158d4eba1247a0c1c2c73771f894cc89cd002f906fbece189b9b3ec20628ce6"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "d07baca323e5532f62408f577f2d2411643c11196e62ad3d00a42ca6cdbac992"
+      "sha256": "b1e6d70be0648b060d87dcc70fefd6d8e9c30b19814e2c7f09ae53157372278a"
     }
   }
 }
