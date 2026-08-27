@@ -1,17 +1,17 @@
 {
-  "versionCode": 77,
-  "versionName": "1.11.31",
+  "versionCode": 78,
+  "versionName": "1.11.32",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "220c7f527b43ae7a83617dd6272bed7d17c5fd6f6c7d66ea0537f586d91f14ec",
-  "changelog": "Main (Anmy AI) là trợ lý cho người lớn (parent scope) + hồ sơ phụ huynh; Kid là tính năng per-child (nhiều trẻ); Drive là chế độ.",
+  "sha256": "efe1c76925654f28756f81bc622b130bb4d66fd5d8f161c79a8aa228b77b076d",
+  "changelog": "Rewards per-child: mỗi trẻ có điểm/streak/badge riêng; đổi trẻ reload theo trẻ. Main(Anmy AI) là trợ lý người lớn (parent scope), Kid là tính năng per-child, Drive là chế độ.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "220c7f527b43ae7a83617dd6272bed7d17c5fd6f6c7d66ea0537f586d91f14ec"
+      "sha256": "efe1c76925654f28756f81bc622b130bb4d66fd5d8f161c79a8aa228b77b076d"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "b5e191219472924becbc4816204861ac06d821aa4887f9c90f9153c2e668556a"
+      "sha256": "163eaf86fa5cb686a1127591540e73a50f05736f7373708b8a3de8a72eab583c"
     }
   }
 }
