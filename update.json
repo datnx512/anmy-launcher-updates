@@ -1,17 +1,17 @@
 {
-  "versionCode": 73,
-  "versionName": "1.11.27",
+  "versionCode": 74,
+  "versionName": "1.11.28",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "bd0372407084d3a14f6b0d5d7f0ff643d4ea1042db50d67def4d684bf6e21ac8",
-  "changelog": "1.11.27: Thiết kế lại mũi tên định vị — mũi tên giờ CỐ ĐỊNH luôn chỉ lên màn hình (icon-rotate=0, viewport), bản đồ ở chế độ heading-up tự xoay theo hướng di chuyển phía sau mũi tên. Trước đây mũi tên tự xoay theo heading trong khi bản đồ cũng tự xoay (2 giá trị lệch nhau) nên bị nhấp nháy/rung; nay loại bỏ hẳn xoay mũi tên nên không còn nhấp nháy khi di chuyển.",
+  "sha256": "d2afe1eea205d19411afcb8f8ef4e2cbf1e57de8e6287f6e701f1b700c457353",
+  "changelog": "1.11.28: Thiết kế lại mũi tên định vị (chống nhấp nháy + bám tuyến + đẹp hơn): bỏ layer vệt heading chồng lớp, chỉ dùng 1 mũi tên; vẽ lại mũi tên điều hướng sắc nét (viền trắng, bóng mờ); memoize nguồn bản đồ để không vẽ lại mỗi lần recompose; bản đồ heading-up xoay theo HƯỚNG TUYẾN khi đang điều hướng để mũi tên khớp hướng đường.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "bd0372407084d3a14f6b0d5d7f0ff643d4ea1042db50d67def4d684bf6e21ac8"
+      "sha256": "d2afe1eea205d19411afcb8f8ef4e2cbf1e57de8e6287f6e701f1b700c457353"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "d329c5ba013e07804ef7dcc9d0365a1d076367770979f32b4566336fb75bf986"
+      "sha256": "a811ef15bd6381c15063b5652a647d887a7a81ad7ca2f99b1dd5adb2a618620a"
     }
   }
 }
