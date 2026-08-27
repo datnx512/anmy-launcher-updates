@@ -3,7 +3,7 @@
   "versionName": "1.11.33",
   "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.11.33/shell-universal-release.apk",
   "sha256": "38c8b0109d8f9ab6f022b6cc1e5d356d27c3ad813ba757bbd6759711b4e7acad",
-  "changelog": "OTA hosted on GitHub Releases (không còn blob APK trong git làm cảnh báo >50MB).",
+  "changelog": "OTA hosted on GitHub Releases.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.11.33/shell-arm64-v8a-release.apk",
