@@ -1,17 +1,17 @@
 {
-  "versionCode": 71,
-  "versionName": "1.11.25",
+  "versionCode": 72,
+  "versionName": "1.11.26",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "4158d4eba1247a0c1c2c73771f894cc89cd002f906fbece189b9b3ec20628ce6",
-  "changelog": "1.11.25: Sửa tiếp mũi tên định vị nhấp nháy khi di chuyển — giới hạn tần suất cập nhật source vị trí trên bản đồ (tối thiểu 300ms/lần), chỉ xoay khi hướng đổi đủ lớn (>6°) hoặc điểm dịch chuyển >3m, và giữ nguyên hướng mũi tên khi xe chạy chậm (<5km/h) để khử nhiễu GPS; xoay mượt theo hướng đích.",
+  "sha256": "1d9069579449ada08f75861cd49e9d4a19080e6d1b221f73362139de4e8b93fc",
+  "changelog": "1.11.26: Làm badge giới hạn tốc độ hiện ngay khi có biển báo/camera phạt tốc độ gần (bán kính 600m) — trước đây badge chỉ được đặt khi truy vấn OSM way (mỗi 60s/cell) nên nhiều đoạn đường không có way maxspeed thì badge bị ẩn; nay cứ mỗi lần tải POI (20s) app kiểm tra lại biển/camera gần nhất để hiện badge ngay dưới đồng hồ.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "4158d4eba1247a0c1c2c73771f894cc89cd002f906fbece189b9b3ec20628ce6"
+      "sha256": "1d9069579449ada08f75861cd49e9d4a19080e6d1b221f73362139de4e8b93fc"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "b1e6d70be0648b060d87dcc70fefd6d8e9c30b19814e2c7f09ae53157372278a"
+      "sha256": "cc9435e9d04abcd31c53f289ba36459bb548508f58029c632ef177a5f94b175a"
     }
   }
 }
