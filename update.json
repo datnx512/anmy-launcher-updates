@@ -1,17 +1,17 @@
 {
-  "versionCode": 66,
-  "versionName": "1.11.20",
+  "versionCode": 67,
+  "versionName": "1.11.21",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "e9620d4f8a918fa8624fa9d888f7cc485061c7b29928de86a5338b7d1261eefe",
-  "changelog": "UX/UI responsive design mọi thiết bị: breakpoint theo chiều rộng, Kid screen dùng bố cục phủ+dock trên màn hình hẹp, cài đặt & chat giới hạn chiều rộng căn giữa.",
+  "sha256": "7113af7daa8b155003df4f010134d4825786a6ec7dbe6691df6faca7b720a42c",
+  "changelog": "shell v1.11.21 (code 67): nâng cấp module Phần thưởng — catalog mở rộng (thêm sticker/avatar/app_time/theme), badge progress (current/target), kho & trang bị (equip/unequip theo thể loại), weekly cap, hiệu ứng confetti khi đổi quà/huy hiệu; sửa lỗi câu đố lặp lại nhiều lần (xoay vòng không lặp, ngân hàng mở rộng phủ đủ 17 concept); story assets SVG + coil-svg + story audio player/generator.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "e9620d4f8a918fa8624fa9d888f7cc485061c7b29928de86a5338b7d1261eefe"
+      "sha256": "7113af7daa8b155003df4f010134d4825786a6ec7dbe6691df6faca7b720a42c"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "73d687386ef384ec0d95ce83afca24daf4ab2870ed79a23ccd81e2b556f551c8"
+      "sha256": "6e5ff2431370332cd6b4f4c26d8212177dca00dd64ec63b1a10d5e3bb42e543d"
     }
   }
 }
