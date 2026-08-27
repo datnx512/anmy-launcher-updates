@@ -1,17 +1,17 @@
 {
-  "versionCode": 74,
-  "versionName": "1.11.28",
+  "versionCode": 75,
+  "versionName": "1.11.29",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "d2afe1eea205d19411afcb8f8ef4e2cbf1e57de8e6287f6e701f1b700c457353",
-  "changelog": "1.11.28: Thiết kế lại mũi tên định vị (chống nhấp nháy + bám tuyến + đẹp hơn): bỏ layer vệt heading chồng lớp, chỉ dùng 1 mũi tên; vẽ lại mũi tên điều hướng sắc nét (viền trắng, bóng mờ); memoize nguồn bản đồ để không vẽ lại mỗi lần recompose; bản đồ heading-up xoay theo HƯỚNG TUYẾN khi đang điều hướng để mũi tên khớp hướng đường.",
+  "sha256": "16d31a6d120a84da7b4f9c7cefe4a49e0b3b8fd19df8e32eb67b48089d753edb",
+  "changelog": "1.11.29: Hoàn thiện tính năng biển báo giới hạn tốc độ trên tuyến đường (route speed signs) + cập nhật liên quan (tìm kiếm POI, nguồn giới hạn tốc độ, giao thông); đồng thời master build lại được sau commit mũi tên định vị. Kèm chỉnh giao diện nhỏ.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "d2afe1eea205d19411afcb8f8ef4e2cbf1e57de8e6287f6e701f1b700c457353"
+      "sha256": "16d31a6d120a84da7b4f9c7cefe4a49e0b3b8fd19df8e32eb67b48089d753edb"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "a811ef15bd6381c15063b5652a647d887a7a81ad7ca2f99b1dd5adb2a618620a"
+      "sha256": "319870b4b9b23ec83335300518814bf07cfdffb8815f613d099f116462b69973"
     }
   }
 }
