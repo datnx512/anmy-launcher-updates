@@ -1,17 +1,17 @@
 {
-  "versionCode": 69,
-  "versionName": "1.11.23",
+  "versionCode": 70,
+  "versionName": "1.11.24",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "3815372a898304b4919112a06e4f07684a096aa583197447ecf3c68a84cfe0e2",
-  "changelog": "1.11.23: Sửa badge giới hạn tốc độ trên đồng hồ tốc độ bị ẩn — thêm nguồn dữ liệu dự phòng: khi OSM way không có tag maxspeed (Overpass lỗi/thời gian chờ, hay gặp ở VN) thì lấy giới hạn từ biển báo tốc độ / camera phạt tốc độ gần nhất (<=300m), nên badge màu đỏ (P.127) trên đồng hồ và bảng 'biển báo sắp tới' luôn hiển thị.",
+  "sha256": "0873a3c22ba7a48c76ab3487449c9f252b98ed5254bb2820f0f454c10846ca08",
+  "changelog": "1.11.24: Sửa mũi tên định vị bị nhấp nháy/giật khi di chuyển — hạn chế cập nhật lại source vị trí trên bản đồ (chỉ khi điểm dịch chuyển >1.5m hoặc hướng đổi >4°) và nội suy góc mũi tên mượt, khử nhiễu GPS course; đồng thời không tạo lại icon mũi tên mỗi frame ở chế độ osmdroid.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "3815372a898304b4919112a06e4f07684a096aa583197447ecf3c68a84cfe0e2"
+      "sha256": "0873a3c22ba7a48c76ab3487449c9f252b98ed5254bb2820f0f454c10846ca08"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "b8872ac38710e4c3d1122c1ee14ecd68fdf7260288890ade3f05fcfe2f0088db"
+      "sha256": "d07baca323e5532f62408f577f2d2411643c11196e62ad3d00a42ca6cdbac992"
     }
   }
 }
