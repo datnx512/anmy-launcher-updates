@@ -1,17 +1,17 @@
 {
-  "versionCode": 72,
-  "versionName": "1.11.26",
+  "versionCode": 73,
+  "versionName": "1.11.27",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "1d9069579449ada08f75861cd49e9d4a19080e6d1b221f73362139de4e8b93fc",
-  "changelog": "1.11.26: Làm badge giới hạn tốc độ hiện ngay khi có biển báo/camera phạt tốc độ gần (bán kính 600m) — trước đây badge chỉ được đặt khi truy vấn OSM way (mỗi 60s/cell) nên nhiều đoạn đường không có way maxspeed thì badge bị ẩn; nay cứ mỗi lần tải POI (20s) app kiểm tra lại biển/camera gần nhất để hiện badge ngay dưới đồng hồ.",
+  "sha256": "bd0372407084d3a14f6b0d5d7f0ff643d4ea1042db50d67def4d684bf6e21ac8",
+  "changelog": "1.11.27: Thiết kế lại mũi tên định vị — mũi tên giờ CỐ ĐỊNH luôn chỉ lên màn hình (icon-rotate=0, viewport), bản đồ ở chế độ heading-up tự xoay theo hướng di chuyển phía sau mũi tên. Trước đây mũi tên tự xoay theo heading trong khi bản đồ cũng tự xoay (2 giá trị lệch nhau) nên bị nhấp nháy/rung; nay loại bỏ hẳn xoay mũi tên nên không còn nhấp nháy khi di chuyển.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "1d9069579449ada08f75861cd49e9d4a19080e6d1b221f73362139de4e8b93fc"
+      "sha256": "bd0372407084d3a14f6b0d5d7f0ff643d4ea1042db50d67def4d684bf6e21ac8"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "cc9435e9d04abcd31c53f289ba36459bb548508f58029c632ef177a5f94b175a"
+      "sha256": "d329c5ba013e07804ef7dcc9d0365a1d076367770979f32b4566336fb75bf986"
     }
   }
 }
