@@ -1,17 +1,17 @@
 {
-  "versionCode": 68,
-  "versionName": "1.11.22",
+  "versionCode": 69,
+  "versionName": "1.11.23",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "7f05da63712597cd92311293a0b0d157e44e1f62799b273a5b29372f1a814579",
-  "changelog": "1.11.22: Làm lại đồng hồ tốc độ trong chế độ lái theo phong cách vòng cung vạch xanh (segmented) — số lớn ở giữa + badge giới hạn màu đỏ (P.127); áp dụng cho cả màn hình HUD (xanh lá trên nền đen AMOLED). Quá tốc độ tự chuyển đỏ + glow nhấp nháy.",
+  "sha256": "3815372a898304b4919112a06e4f07684a096aa583197447ecf3c68a84cfe0e2",
+  "changelog": "1.11.23: Sửa badge giới hạn tốc độ trên đồng hồ tốc độ bị ẩn — thêm nguồn dữ liệu dự phòng: khi OSM way không có tag maxspeed (Overpass lỗi/thời gian chờ, hay gặp ở VN) thì lấy giới hạn từ biển báo tốc độ / camera phạt tốc độ gần nhất (<=300m), nên badge màu đỏ (P.127) trên đồng hồ và bảng 'biển báo sắp tới' luôn hiển thị.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "7f05da63712597cd92311293a0b0d157e44e1f62799b273a5b29372f1a814579"
+      "sha256": "3815372a898304b4919112a06e4f07684a096aa583197447ecf3c68a84cfe0e2"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "773221f67f7de689cc3245d9fab1a277979d59393b7ba0d7ea202adf40fa0a41"
+      "sha256": "b8872ac38710e4c3d1122c1ee14ecd68fdf7260288890ade3f05fcfe2f0088db"
     }
   }
 }
