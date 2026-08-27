@@ -1,17 +1,17 @@
 {
-  "versionCode": 67,
-  "versionName": "1.11.21",
+  "versionCode": 68,
+  "versionName": "1.11.22",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "61e8f89f79e65b7f150adceda3e869d474cafda0fede099117b8b44b30333118",
-  "changelog": "1.11.21: Trỏ backend public qua Cloudflare Tunnel (traffic + diagnostics) - app chay internet cong khai",
+  "sha256": "7f05da63712597cd92311293a0b0d157e44e1f62799b273a5b29372f1a814579",
+  "changelog": "1.11.22: Làm lại đồng hồ tốc độ trong chế độ lái theo phong cách vòng cung vạch xanh (segmented) — số lớn ở giữa + badge giới hạn màu đỏ (P.127); áp dụng cho cả màn hình HUD (xanh lá trên nền đen AMOLED). Quá tốc độ tự chuyển đỏ + glow nhấp nháy.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "61e8f89f79e65b7f150adceda3e869d474cafda0fede099117b8b44b30333118"
+      "sha256": "7f05da63712597cd92311293a0b0d157e44e1f62799b273a5b29372f1a814579"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "7e7f08809bf6905e58cddad04945ea173ad1ec879c05d45ddcb9af9aa0ad3367"
+      "sha256": "773221f67f7de689cc3245d9fab1a277979d59393b7ba0d7ea202adf40fa0a41"
     }
   }
 }
