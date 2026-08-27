@@ -2,16 +2,16 @@
   "versionCode": 67,
   "versionName": "1.11.21",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "7113af7daa8b155003df4f010134d4825786a6ec7dbe6691df6faca7b720a42c",
-  "changelog": "shell v1.11.21 (code 67): nâng cấp module Phần thưởng — catalog mở rộng (thêm sticker/avatar/app_time/theme), badge progress (current/target), kho & trang bị (equip/unequip theo thể loại), weekly cap, hiệu ứng confetti khi đổi quà/huy hiệu; sửa lỗi câu đố lặp lại nhiều lần (xoay vòng không lặp, ngân hàng mở rộng phủ đủ 17 concept); story assets SVG + coil-svg + story audio player/generator.",
+  "sha256": "61e8f89f79e65b7f150adceda3e869d474cafda0fede099117b8b44b30333118",
+  "changelog": "1.11.21: Trỏ backend public qua Cloudflare Tunnel (traffic + diagnostics) - app chay internet cong khai",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "7113af7daa8b155003df4f010134d4825786a6ec7dbe6691df6faca7b720a42c"
+      "sha256": "61e8f89f79e65b7f150adceda3e869d474cafda0fede099117b8b44b30333118"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "6e5ff2431370332cd6b4f4c26d8212177dca00dd64ec63b1a10d5e3bb42e543d"
+      "sha256": "7e7f08809bf6905e58cddad04945ea173ad1ec879c05d45ddcb9af9aa0ad3367"
     }
   }
 }
