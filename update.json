@@ -1,17 +1,17 @@
 {
-  "versionCode": 79,
-  "versionName": "1.11.33",
-  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.11.33/shell-arm64-v8a-release.apk",
-  "sha256": "f6bf6c9fd3c0914102c80df78a90432851bb7064a26010c836198df4ad39a505",
-  "changelog": "OTA hosted on GitHub Releases (per-ABI).",
+  "versionCode": 80,
+  "versionName": "1.11.34",
+  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.11.34/shell-arm64-v8a-release.apk",
+  "sha256": "382fb3253b984bec4794db3835560f2ea3f7402a7aacdeb88d73337b0d7641b9",
+  "changelog": "Sửa: giờ nghỉ & giới hạn giờ của Kid screen giờ chỉ áp dụng khi ở màn hình Kid; Main (Anmy AI) và Drive không còn bị chặn bởi giờ nghỉ/giới hạn của trẻ.",
   "abiApks": {
     "arm64-v8a": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.11.33/shell-arm64-v8a-release.apk",
-      "sha256": "f6bf6c9fd3c0914102c80df78a90432851bb7064a26010c836198df4ad39a505"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.11.34/shell-arm64-v8a-release.apk",
+      "sha256": "382fb3253b984bec4794db3835560f2ea3f7402a7aacdeb88d73337b0d7641b9"
     },
     "x86_64": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.11.33/shell-x86_64-release.apk",
-      "sha256": "78b5a86f3198d2c48343bb7a0695bb8f3937f68558e4962ff1385f59d28f09a8"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.11.34/shell-x86_64-release.apk",
+      "sha256": "e185e7b41f0a5baa47f6b2c95b780e6c0e616531018d33204e13497e8537d53a"
     }
   }
 }
