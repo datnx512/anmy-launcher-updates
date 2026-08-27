@@ -1,17 +1,17 @@
 {
-  "versionCode": 75,
-  "versionName": "1.11.29",
+  "versionCode": 76,
+  "versionName": "1.11.30",
   "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-  "sha256": "16d31a6d120a84da7b4f9c7cefe4a49e0b3b8fd19df8e32eb67b48089d753edb",
-  "changelog": "1.11.29: Hoàn thiện tính năng biển báo giới hạn tốc độ trên tuyến đường (route speed signs) + cập nhật liên quan (tìm kiếm POI, nguồn giới hạn tốc độ, giao thông); đồng thời master build lại được sau commit mũi tên định vị. Kèm chỉnh giao diện nhỏ.",
+  "sha256": "99a9bc42a6e8266a3fd61cd563f2d2b2a3228cf05a9cd5dbb8fd1cd49e266978",
+  "changelog": "Anmy AI cho mọi người: Main là home (parent scope), Kid là tính năng per-child (nhiều trẻ), Drive là chế độ. Điều hướng nhóm 'Chế độ' trong drawer.",
   "abiApks": {
     "arm64-v8a": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-arm64-v8a-release.apk",
-      "sha256": "16d31a6d120a84da7b4f9c7cefe4a49e0b3b8fd19df8e32eb67b48089d753edb"
+      "sha256": "99a9bc42a6e8266a3fd61cd563f2d2b2a3228cf05a9cd5dbb8fd1cd49e266978"
     },
     "x86_64": {
       "apkUrl": "https://raw.githubusercontent.com/datnx512/anmy-launcher-updates/main/shell-x86_64-release.apk",
-      "sha256": "319870b4b9b23ec83335300518814bf07cfdffb8815f613d099f116462b69973"
+      "sha256": "e98f635eafea680e3c1e9968768f8d27333c54973942ea310e772332ba7835f3"
     }
   }
 }
