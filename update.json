@@ -1,17 +1,17 @@
 {
-  "versionCode": 80,
-  "versionName": "1.11.34",
-  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.11.34/shell-arm64-v8a-release.apk",
-  "sha256": "382fb3253b984bec4794db3835560f2ea3f7402a7aacdeb88d73337b0d7641b9",
-  "changelog": "Sửa: giờ nghỉ & giới hạn giờ của Kid screen giờ chỉ áp dụng khi ở màn hình Kid; Main (Anmy AI) và Drive không còn bị chặn bởi giờ nghỉ/giới hạn của trẻ.",
+  "versionCode": 81,
+  "versionName": "1.12.0",
+  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.12.0/shell-arm64-v8a-release.apk",
+  "sha256": "4557f3d7a97ae9996034b607aac6289d6300ec8f3691dccb94d0916ad8f5d0a4",
+  "changelog": "Tầng AI viết lại theo kiến trúc Javis. Bộ não thay được: DeepSeek, OpenRouter hoặc endpoint tuỳ chọn, đổi model không cần cài lại. Second Brain: Anmy ghi chú và ghi nhớ bằng file markdown trên máy, đọc/tìm được cả khi mất mạng, có trang MEMORY.md nạp trước mỗi lượt. Trí nhớ dài hạn được củng cố định kỳ khi máy đang sạc. Thêm điều phối Agent/Skill/Workflow/Loop với 3 mức quyền suggest/auto/full. Sửa các lỗi: củng cố trí nhớ không chạy trên thiết bị; lịch sử trò chuyện lẫn giữa các hồ sơ (trẻ, phụ huynh); chỉ mục kho ghi chú ghi đè giữa các hồ sơ; bộ lọc nội dung cho trẻ có thể bị bỏ qua khi thiếu hồ sơ; tâm trạng dính sang các lượt sau.",
   "abiApks": {
     "arm64-v8a": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.11.34/shell-arm64-v8a-release.apk",
-      "sha256": "382fb3253b984bec4794db3835560f2ea3f7402a7aacdeb88d73337b0d7641b9"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.12.0/shell-arm64-v8a-release.apk",
+      "sha256": "4557f3d7a97ae9996034b607aac6289d6300ec8f3691dccb94d0916ad8f5d0a4"
     },
     "x86_64": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.11.34/shell-x86_64-release.apk",
-      "sha256": "e185e7b41f0a5baa47f6b2c95b780e6c0e616531018d33204e13497e8537d53a"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.12.0/shell-x86_64-release.apk",
+      "sha256": "7398f3ceb7d16a9251b16f69a0821d16f1a2b395a6e78ff4c17a5d8c99469c3a"
     }
   }
 }
