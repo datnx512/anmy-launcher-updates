@@ -1,17 +1,17 @@
 {
-  "versionCode": 83,
-  "versionName": "1.13.1",
-  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.13.1/shell-arm64-v8a-release.apk",
-  "sha256": "253b7d572886188613233667fc8be90c902049efb21e7acab93058438cb348a8",
-  "changelog": "Hợp nhất hai bản đồ thị tri thức thành một. Trước đây màn phụ huynh và chế độ lái vẽ bằng hai công cụ khác nhau nên dễ lệch nhau về bộ lọc và cách hiển thị; nay cả hai dùng chung một bản vẽ 3D (WebGL) nên mượt hơn và nhất quán. Đồ thị giữ đủ các tính năng cũ: đổi 2D/3D, lọc theo lĩnh vực, chỉ hiện điều đã thành thạo, hiện/ẩn ghi chú trong kho, hiện nhãn, xoay tự động, chạm vào một mục để xem chi tiết và các liên kết. Node ghi chú nay được tô màu khác node kiến thức để phân biệt. Một thay đổi về hành vi: chế độ \"Bé đang tương tác\" chỉ làm nổi bật mục đang được nhắc, không tự tăng mức thành thạo của bé nữa, vì màn hình chỉ để xem thì không nên tự sửa dữ liệu học tập.",
+  "versionCode": 84,
+  "versionName": "1.14.0",
+  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.14.0/shell-arm64-v8a-release.apk",
+  "sha256": "baab170fd544d902e2edd1f7ea402b4502f406807218edb21d022163ed60a037",
+  "changelog": "1.14.0: Trò chuyện realtime — Anmy bắt đầu nói ngay khi viết xong câu đầu (trước đây phải chờ hết câu trả lời nên có lúc chờ 4–10 giây). Bé nói chen vào thì Anmy dừng nói ngay, không cần chạm nút. Nói xong Anmy tự mở mic ~6 giây để bé nói tiếp mà không phải gọi \"Anmy ơi\". Sửa lỗi: khi chưa cấp quyền mic, Anmy báo rõ thay vì nói câu chào mặc định; nhận diện giọng nói offline (Vosk) hoạt động trở lại cho hội thoại; đổi giọng đọc áp dụng tức thì. Bật/tắt hai tính năng mới trong Cổng phụ huynh → Cài đặt → Giọng nói.",
   "abiApks": {
     "arm64-v8a": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.13.1/shell-arm64-v8a-release.apk",
-      "sha256": "253b7d572886188613233667fc8be90c902049efb21e7acab93058438cb348a8"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.14.0/shell-arm64-v8a-release.apk",
+      "sha256": "baab170fd544d902e2edd1f7ea402b4502f406807218edb21d022163ed60a037"
     },
     "x86_64": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.13.1/shell-x86_64-release.apk",
-      "sha256": "472821d0c50a7e1e436b313c1d32bb8effd6f861713d706edd5ae009443bd5ad"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.14.0/shell-x86_64-release.apk",
+      "sha256": "12da59250fe2a2a7b071491af52b42144d94ee944a5c5b23a3f6356af324c0ae"
     }
   }
 }
