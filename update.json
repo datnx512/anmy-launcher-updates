@@ -1,17 +1,17 @@
 {
-  "versionCode": 81,
-  "versionName": "1.12.0",
-  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.12.0/shell-arm64-v8a-release.apk",
-  "sha256": "4557f3d7a97ae9996034b607aac6289d6300ec8f3691dccb94d0916ad8f5d0a4",
-  "changelog": "Tầng AI viết lại theo kiến trúc Javis. Bộ não thay được: DeepSeek, OpenRouter hoặc endpoint tuỳ chọn, đổi model không cần cài lại. Second Brain: Anmy ghi chú và ghi nhớ bằng file markdown trên máy, đọc/tìm được cả khi mất mạng, có trang MEMORY.md nạp trước mỗi lượt. Trí nhớ dài hạn được củng cố định kỳ khi máy đang sạc. Thêm điều phối Agent/Skill/Workflow/Loop với 3 mức quyền suggest/auto/full. Sửa các lỗi: củng cố trí nhớ không chạy trên thiết bị; lịch sử trò chuyện lẫn giữa các hồ sơ (trẻ, phụ huynh); chỉ mục kho ghi chú ghi đè giữa các hồ sơ; bộ lọc nội dung cho trẻ có thể bị bỏ qua khi thiếu hồ sơ; tâm trạng dính sang các lượt sau.",
+  "versionCode": 82,
+  "versionName": "1.13.0",
+  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.13.0/shell-arm64-v8a-release.apk",
+  "sha256": "6ba6a1ab0e025f224b9a3dd011a55f3fb097b818d18774fe190d9d6e02b1ea7a",
+  "changelog": "Anmy nay có màn \"Bộ nhớ & Kho\" để xem những gì Anmy đã ghi nhớ (và tự tay xoá), màn \"Việc\" để bật/tắt công việc chạy nền, và biểu đồ tri thức hiển thị cả ghi chú của bạn chứ không chỉ khái niệm. Nhắc hẹn đã hoạt động thật: đặt từ chat thì báo đúng giờ kể cả khi app đóng, và vẫn còn sau khi khởi động lại máy. Anmy hỏi trước khi làm việc nhạy cảm. Anmy tìm được không cần dấu, ví dụ gõ \"khong long\" vẫn ra \"Khủng long\". Khi bạn đính chính, Anmy đề xuất sửa lại để bạn duyệt hoặc hoàn tác, chứ không tự ý thay đổi.",
   "abiApks": {
     "arm64-v8a": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.12.0/shell-arm64-v8a-release.apk",
-      "sha256": "4557f3d7a97ae9996034b607aac6289d6300ec8f3691dccb94d0916ad8f5d0a4"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.13.0/shell-arm64-v8a-release.apk",
+      "sha256": "6ba6a1ab0e025f224b9a3dd011a55f3fb097b818d18774fe190d9d6e02b1ea7a"
     },
     "x86_64": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.12.0/shell-x86_64-release.apk",
-      "sha256": "7398f3ceb7d16a9251b16f69a0821d16f1a2b395a6e78ff4c17a5d8c99469c3a"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.13.0/shell-x86_64-release.apk",
+      "sha256": "f4ad328ae9f8b8d05948b245db6392ed8daade540b9eb1556e14d930be26e06e"
     }
   }
 }
