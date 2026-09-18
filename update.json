@@ -1,17 +1,17 @@
 {
-  "versionCode": 82,
-  "versionName": "1.13.0",
-  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.13.0/shell-arm64-v8a-release.apk",
-  "sha256": "6ba6a1ab0e025f224b9a3dd011a55f3fb097b818d18774fe190d9d6e02b1ea7a",
-  "changelog": "Anmy nay có màn \"Bộ nhớ & Kho\" để xem những gì Anmy đã ghi nhớ (và tự tay xoá), màn \"Việc\" để bật/tắt công việc chạy nền, và biểu đồ tri thức hiển thị cả ghi chú của bạn chứ không chỉ khái niệm. Nhắc hẹn đã hoạt động thật: đặt từ chat thì báo đúng giờ kể cả khi app đóng, và vẫn còn sau khi khởi động lại máy. Anmy hỏi trước khi làm việc nhạy cảm. Anmy tìm được không cần dấu, ví dụ gõ \"khong long\" vẫn ra \"Khủng long\". Khi bạn đính chính, Anmy đề xuất sửa lại để bạn duyệt hoặc hoàn tác, chứ không tự ý thay đổi.",
+  "versionCode": 83,
+  "versionName": "1.13.1",
+  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.13.1/shell-arm64-v8a-release.apk",
+  "sha256": "253b7d572886188613233667fc8be90c902049efb21e7acab93058438cb348a8",
+  "changelog": "Hợp nhất hai bản đồ thị tri thức thành một. Trước đây màn phụ huynh và chế độ lái vẽ bằng hai công cụ khác nhau nên dễ lệch nhau về bộ lọc và cách hiển thị; nay cả hai dùng chung một bản vẽ 3D (WebGL) nên mượt hơn và nhất quán. Đồ thị giữ đủ các tính năng cũ: đổi 2D/3D, lọc theo lĩnh vực, chỉ hiện điều đã thành thạo, hiện/ẩn ghi chú trong kho, hiện nhãn, xoay tự động, chạm vào một mục để xem chi tiết và các liên kết. Node ghi chú nay được tô màu khác node kiến thức để phân biệt. Một thay đổi về hành vi: chế độ \"Bé đang tương tác\" chỉ làm nổi bật mục đang được nhắc, không tự tăng mức thành thạo của bé nữa, vì màn hình chỉ để xem thì không nên tự sửa dữ liệu học tập.",
   "abiApks": {
     "arm64-v8a": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.13.0/shell-arm64-v8a-release.apk",
-      "sha256": "6ba6a1ab0e025f224b9a3dd011a55f3fb097b818d18774fe190d9d6e02b1ea7a"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.13.1/shell-arm64-v8a-release.apk",
+      "sha256": "253b7d572886188613233667fc8be90c902049efb21e7acab93058438cb348a8"
     },
     "x86_64": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.13.0/shell-x86_64-release.apk",
-      "sha256": "f4ad328ae9f8b8d05948b245db6392ed8daade540b9eb1556e14d930be26e06e"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.13.1/shell-x86_64-release.apk",
+      "sha256": "472821d0c50a7e1e436b313c1d32bb8effd6f861713d706edd5ae009443bd5ad"
     }
   }
 }
