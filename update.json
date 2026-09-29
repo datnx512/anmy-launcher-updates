@@ -1,17 +1,17 @@
 {
-  "versionCode": 84,
-  "versionName": "1.14.0",
-  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.14.0/shell-arm64-v8a-release.apk",
-  "sha256": "baab170fd544d902e2edd1f7ea402b4502f406807218edb21d022163ed60a037",
-  "changelog": "1.14.0: Trò chuyện realtime — Anmy bắt đầu nói ngay khi viết xong câu đầu (trước đây phải chờ hết câu trả lời nên có lúc chờ 4–10 giây). Bé nói chen vào thì Anmy dừng nói ngay, không cần chạm nút. Nói xong Anmy tự mở mic ~6 giây để bé nói tiếp mà không phải gọi \"Anmy ơi\". Sửa lỗi: khi chưa cấp quyền mic, Anmy báo rõ thay vì nói câu chào mặc định; nhận diện giọng nói offline (Vosk) hoạt động trở lại cho hội thoại; đổi giọng đọc áp dụng tức thì. Bật/tắt hai tính năng mới trong Cổng phụ huynh → Cài đặt → Giọng nói.",
+  "versionCode": 85,
+  "versionName": "1.15.0",
+  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.15.0/shell-arm64-v8a-release.apk",
+  "sha256": "3297f0714baed85aa653c144c09833e84c9b6cac79906ca9d91efc88646a7124",
+  "changelog": "1.15.0: Sửa lỗi Anmy không có tiếng — bổ sung khai báo engine đọc tiếng và nhận diện giọng nói cho Android 11+ (thiếu khai báo nên máy không tìm thấy engine, Anmy im lặng hoàn toàn), sửa lỗi TTS bị treo khi bé nói chen làm các câu sau câm, và bỏ việc đọc lặp cả câu. Trò chuyện realtime nay chạy thật: Anmy bắt đầu nói ngay khi viết xong câu đầu thay vì chờ hết câu trả lời (trước đây 4–10 giây), bé nói chen là Anmy dừng ngay, nói xong Anmy tự mở mic ~6 giây để bé nói tiếp mà không cần gọi “Anmy ơi”. Nhận diện giọng nói chính xác hơn hẳn: sửa lỗi bộ giải mã Vosk bị xoá ngữ cảnh mỗi 0,25 giây và dùng kết quả cuối đã chấm lại, model tiếng Việt offline nay được tải và dùng thay vì luôn gửi lên mạng. Sửa lỗi văng ứng dụng khi mở app/xoay màn hình (Live2D) và rò VRAM khi đổi model. Thống nhất màn cài đặt giữa màn chính, chế độ trẻ và chế độ lái: một nguồn cài đặt duy nhất, nút Hủy không còn ghi nhầm, các mục cài đặt chế độ lái nay lưu và có tác dụng thật.",
   "abiApks": {
     "arm64-v8a": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.14.0/shell-arm64-v8a-release.apk",
-      "sha256": "baab170fd544d902e2edd1f7ea402b4502f406807218edb21d022163ed60a037"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.15.0/shell-arm64-v8a-release.apk",
+      "sha256": "3297f0714baed85aa653c144c09833e84c9b6cac79906ca9d91efc88646a7124"
     },
     "x86_64": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.14.0/shell-x86_64-release.apk",
-      "sha256": "12da59250fe2a2a7b071491af52b42144d94ee944a5c5b23a3f6356af324c0ae"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.15.0/shell-x86_64-release.apk",
+      "sha256": "27307a4969c970538300148208fe9ac6f9112bb2a9e4d71b3aaccf6ba2fcb2f3"
     }
   }
 }
