@@ -1,17 +1,17 @@
 {
-  "versionCode": 85,
-  "versionName": "1.15.0",
-  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.15.0/shell-arm64-v8a-release.apk",
-  "sha256": "3297f0714baed85aa653c144c09833e84c9b6cac79906ca9d91efc88646a7124",
-  "changelog": "1.15.0: Sửa lỗi Anmy không có tiếng — bổ sung khai báo engine đọc tiếng và nhận diện giọng nói cho Android 11+ (thiếu khai báo nên máy không tìm thấy engine, Anmy im lặng hoàn toàn), sửa lỗi TTS bị treo khi bé nói chen làm các câu sau câm, và bỏ việc đọc lặp cả câu. Trò chuyện realtime nay chạy thật: Anmy bắt đầu nói ngay khi viết xong câu đầu thay vì chờ hết câu trả lời (trước đây 4–10 giây), bé nói chen là Anmy dừng ngay, nói xong Anmy tự mở mic ~6 giây để bé nói tiếp mà không cần gọi “Anmy ơi”. Nhận diện giọng nói chính xác hơn hẳn: sửa lỗi bộ giải mã Vosk bị xoá ngữ cảnh mỗi 0,25 giây và dùng kết quả cuối đã chấm lại, model tiếng Việt offline nay được tải và dùng thay vì luôn gửi lên mạng. Sửa lỗi văng ứng dụng khi mở app/xoay màn hình (Live2D) và rò VRAM khi đổi model. Thống nhất màn cài đặt giữa màn chính, chế độ trẻ và chế độ lái: một nguồn cài đặt duy nhất, nút Hủy không còn ghi nhầm, các mục cài đặt chế độ lái nay lưu và có tác dụng thật.",
+  "versionCode": 86,
+  "versionName": "1.15.1",
+  "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.15.1/shell-arm64-v8a-release.apk",
+  "sha256": "1977e0228f4ed384a7854d4905c67addbee9060c8e3de8191d574cf71af2b7d7",
+  "changelog": "1.15.1: Sửa lỗi không mở được app trên máy chưa có giọng đọc tiếng Việt — ứng dụng văng ngay khi khởi động vì engine đọc tiếng gọi về trước lúc trạng thái sẵn sàng; nay app mở bình thường, Anmy chỉ im phần đọc còn chữ vẫn hiện đầy đủ. Anmy nói tự nhiên hơn: khi phải chờ mạng hoặc chờ model, Anmy đệm một câu ngắn (Ừm… để Anmy nghĩ nhé…) thay vì để bé ngồi nghe im lặng, và câu đệm đổi mỗi lần; khi bé buồn, sợ hoặc bực, Anmy nói câu đồng cảm TRƯỚC rồi mới vào nội dung (trước đây đường trò chuyện realtime bỏ qua phần này); giọng đọc nay đổi theo cảm xúc (vui nhanh hơn, buồn chậm và trầm hơn, bé đang giận thì hạ nhịp chứ không gắt theo); mặt Anmy soi theo cảm xúc của bé thay vì mặt đang-nghĩ trung tính. Anmy cũng bớt máy: không liệt kê gạch đầu dòng khi đang trò chuyện, hỏi tối đa một câu mỗi lượt, không nhắc lại nguyên văn câu của bé, và nhắc ký ức như người quen. Về độ tin cậy: lỗi mạng tạm thời (timeout, 429, 5xx) nay được thử lại thay vì rơi ngay sang câu trả lời demo, và khi thật sự không kết nối được thì Anmy nói đúng nguyên nhân (chưa kết nối được với bộ não, nhờ bố mẹ kiểm tra giúp) thay vì đổ cho bé nói chưa rõ. Tầng trí nhớ và kho ghi chú chạy nhẹ hơn hẳn mỗi lượt nên app mượt hơn khi đã dùng lâu.",
   "abiApks": {
     "arm64-v8a": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.15.0/shell-arm64-v8a-release.apk",
-      "sha256": "3297f0714baed85aa653c144c09833e84c9b6cac79906ca9d91efc88646a7124"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.15.1/shell-arm64-v8a-release.apk",
+      "sha256": "1977e0228f4ed384a7854d4905c67addbee9060c8e3de8191d574cf71af2b7d7"
     },
     "x86_64": {
-      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.15.0/shell-x86_64-release.apk",
-      "sha256": "27307a4969c970538300148208fe9ac6f9112bb2a9e4d71b3aaccf6ba2fcb2f3"
+      "apkUrl": "https://github.com/datnx512/anmy-launcher-updates/releases/download/v1.15.1/shell-x86_64-release.apk",
+      "sha256": "0969bb22c63118e6f5a8a217e75c8280b0464d291af3ed3e1a0a7ba078f9fb70"
     }
   }
 }
